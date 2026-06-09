@@ -92,22 +92,35 @@
     "note": "以上为基于公开信息的方向性整理，仅供参考，不构成投资建议。"
   },
   "talent": {
-    "rows": [
-      {"position":"AI 平台技术产品经理","company":"字节跳动（北京海淀）","salary":"30-50K · 16薪","requirements":"3 年以上产品经验；熟悉大模型/Agent/RAG；能主导平台型产品 0-1","platform":"BOSS 直聘","url":"https://www.zhipin.com/"},
-      {"position":"AI 平台产品经理（抖音）","company":"字节跳动（抖音业务）","salary":"20-30K · 14-16薪","requirements":"3-5 年产品经验；负责 AIGC 工具/创作者平台；多模态优先","platform":"BOSS 直聘","url":"https://www.zhipin.com/"},
-      {"position":"AI 产品经理（大模型方向）","company":"美团（闪购业务）","salary":"25-40K","requirements":"5 年以上 B 端/中后台产品经验；理解大模型能力边界；能落地业务场景","platform":"BOSS 直聘","url":"https://www.zhipin.com/"},
-      {"position":"AIGC 营销产品经理","company":"北京某 4A 转型公司（猎聘公开 JD）","salary":"30-45K · 5 年+","requirements":"广告/营销背景；熟悉创意生成、视频生成、数字人；服务过大客户","platform":"猎聘","url":"https://www.liepin.com/"},
-      {"position":"AI 产品经理（B 端）","company":"罗课科技","salary":"20-35K","requirements":"懂 RAG/Agent 落地；有教育/SaaS 背景优先","platform":"BOSS 直聘","url":"https://www.zhipin.com/"},
-      {"position":"AI 产品经理（RAG / 大模型）","company":"博彦科技","salary":"25-40K","requirements":"主导过 RAG 知识库/Agent 系统；能与算法工程师协同","platform":"BOSS 直聘","url":"https://www.zhipin.com/"},
-      {"position":"AI 智能产品经理","company":"上海某 AI 创业公司（猎聘公开 JD）","salary":"30-50K · 5 年+","requirements":"完整经历过一款 AI 产品 0-1；能写 PRD + Prompt 模板 + Agent 流程图","platform":"猎聘","url":"https://www.liepin.com/"}
+    "groups": [
+      {
+        "title": "🅰️ AI 产品经理方向",
+        "rows": [
+          {"position":"AI 平台技术产品经理","company":"字节跳动（北京海淀）","salary":"30-50K · 16薪","requirements":"3 年以上产品经验；熟悉大模型/Agent/RAG；能主导平台型产品 0-1","platform":"BOSS 直聘","url":"https://www.zhipin.com/"},
+          {"position":"AI 平台产品经理（抖音）","company":"字节跳动（抖音业务）","salary":"20-30K · 14-16薪","requirements":"3-5 年产品经验；负责 AIGC 工具/创作者平台；多模态优先","platform":"BOSS 直聘","url":"https://www.zhipin.com/"},
+          {"position":"AI 产品经理（大模型方向）","company":"美团（闪购业务）","salary":"25-40K","requirements":"5 年以上 B 端/中后台产品经验；理解大模型能力边界；能落地业务场景","platform":"BOSS 直聘","url":"https://www.zhipin.com/"},
+          {"position":"AIGC 营销产品经理","company":"北京某 4A 转型公司（猎聘公开 JD）","salary":"30-45K · 5 年+","requirements":"广告/营销背景；熟悉创意生成、视频生成、数字人；服务过大客户","platform":"猎聘","url":"https://www.liepin.com/"},
+          {"position":"AI 产品经理（RAG / 大模型）","company":"博彦科技","salary":"25-40K","requirements":"主导过 RAG 知识库/Agent 系统；能与算法工程师协同","platform":"BOSS 直聘","url":"https://www.zhipin.com/"}
+        ]
+      },
+      {
+        "title": "🅱️ AI 运营 / 广告商业化运营方向（重点关注）",
+        "rows": [
+          {"position":"AIGC 商业化运营（工具产品 + 商业变现）","company":"金山办公 WPS（猎聘公开 JD）","salary":"30-50K · 3-5 年","requirements":"3-5 年产品运营经验；有效率类工具/AI 应用商业化变现经验；能写 PRD、跨部门推动；强数据分析","platform":"猎聘","url":"https://www.liepin.com/job/1964523119.shtml"},
+          {"position":"AI 内容运营（AIGC 营销 + 数字人 IP）","company":"叫叫 AI 课（成都，猎聘公开 JD）","salary":"15-25K · 2 年+","requirements":"2 年以上市场营销经验；熟悉小红书/抖音/视频号；熟练 Midjourney/ChatGPT/数字人工具；有营销爆款案例","platform":"猎聘","url":"https://www.liepin.com/job/1972058561.shtml"},
+          {"position":"广告商业化运营（巨量引擎方向）","company":"巨量引擎代理商（智联公开 JD）","salary":"8-15K · 1 年+","requirements":"负责头条/抖音/西瓜/穿山甲投放与优化；数据分析驱动策略；跨部门拉通素材","platform":"智联招聘","url":"https://jobs.zhaopin.com/CC502582632J00353954908.htm"},
+          {"position":"信息流广告优化师（AI 创意方向）","company":"微思敦（武汉，BOSS 公开 JD）","salary":"10-15K · 3-5 年","requirements":"小红书/抖音/百度信息流投放；广告账户管理；AI 创意素材 + ROI 优化","platform":"BOSS 直聘","url":"https://www.zhipin.com/zhaopin/1283ccf764c8434d1HF-0tu5/"},
+          {"position":"快手 2026 春招 · 大模型与商业化方向（含运营/PM/算法 200+ 类）","company":"快手（含可灵 AI 业务线）","salary":"按岗位定级","requirements":"大模型岗位需求同比翻倍；可灵 AI 落地广告营销/影视/电商，急需懂商业化的运营与解决方案","platform":"快手 2026 春招（搜狐报道）","url":"https://www.sohu.com/a/995900428_211762"}
+        ]
+      }
     ],
-    "keywords": "Prompt · RAG · Agent · 多模态 · 商业化 / GTM —— 简历命中任一即为紧缺标签；同时具备 3 个以上为「极紧缺」画像。"
+    "keywords": "广告商业化运营画像紧缺关键词：AIGC 创意 · 投放优化（巨量/小红书/腾讯广告）· 大客户经营 · 数字人 IP · 视频生成工具实战 · ROI 数据分析 —— 命中 3 个以上即「广告 + AI」复合型紧缺人才。"
   },
   "takeaways": [
     "OpenAI 8500 亿估值 IPO + Anthropic 1500 亿，AI 应用层资本叙事开启，二级市场重估持续。",
     "可灵 Q1 营收 6.5 亿、ARR 近 5 亿美元、用户 1 亿、企业客户 5 万 —— 国内 AI 视频商业化唯一闭环。",
     "豆包 6 月启动 68/200/500 三档付费 —— C 端订阅、会员体系、用量分级岗位会被加速招聘。",
-    "AI 营销市场破 3200 亿、增速 41.7%，广告 5 年+ AIGC 实战是当下最稀缺画像之一。",
-    "招聘 5 大关键词：Prompt / RAG / Agent / 多模态 / 商业化，简历命中任一即紧缺。"
+    "AI 营销市场破 3200 亿、增速 41.7%；快手 2026 春招大模型/商业化岗位翻倍 —— 广告商业化运营 + AI 是当前最紧缺画像之一。",
+    "广告商业化运营紧缺关键词：AIGC 创意、投放优化、大客户经营、数字人 IP、视频生成工具实战、ROI 分析。"
   ]
 }

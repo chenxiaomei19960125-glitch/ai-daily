@@ -158,14 +158,13 @@ function renderStock(stock) {
   </section>`;
 }
 
-function renderTalent(talent) {
-  if (!talent || !talent.rows || !talent.rows.length) return '';
-  return `<section class="talent">
-    <h2>💼 AI 人才市场 · 招聘端最新要求（含来源公司）</h2>
+function renderTalentGroup(group) {
+  return `
+    <h3 style="font-size:15px;color:#c2185b;margin:14px 0 8px 0;">${escapeHtml(group.title)}</h3>
     <table>
       <thead><tr><th>岗位</th><th>来源公司</th><th>薪资</th><th>核心要求</th><th>JD 链接</th></tr></thead>
       <tbody>
-        ${talent.rows.map(r => `<tr>
+        ${group.rows.map(r => `<tr>
           <td>${escapeHtml(r.position)}</td>
           <td><b>${escapeHtml(r.company)}</b></td>
           <td>${escapeHtml(r.salary)}</td>
@@ -173,8 +172,24 @@ function renderTalent(talent) {
           <td>${r.url ? `<a href="${escapeHtml(r.url)}" target="_blank">${escapeHtml(r.platform||'查看')}</a>` : '—'}</td>
         </tr>`).join('')}
       </tbody>
-    </table>
-    ${talent.keywords ? `<div style="margin-top:12px;padding:10px 14px;background:#fef0f6;border-radius:6px;font-size:13.5px;">
+    </table>`;
+}
+
+function renderTalent(talent) {
+  if (!talent) return '';
+  // 兼容两种结构：1) talent.groups（推荐）  2) talent.rows（旧版）
+  let groupsHtml = '';
+  if (talent.groups && talent.groups.length) {
+    groupsHtml = talent.groups.map(renderTalentGroup).join('');
+  } else if (talent.rows && talent.rows.length) {
+    groupsHtml = renderTalentGroup({title: '岗位列表', rows: talent.rows});
+  } else {
+    return '';
+  }
+  return `<section class="talent">
+    <h2>💼 AI 人才市场 · 招聘端最新要求（含来源公司）</h2>
+    ${groupsHtml}
+    ${talent.keywords ? `<div style="margin-top:14px;padding:10px 14px;background:#fef0f6;border-radius:6px;font-size:13.5px;">
       <b>🔑 招聘端最值钱的简历关键词：</b>${escapeHtml(talent.keywords)}
     </div>` : ''}
   </section>`;
