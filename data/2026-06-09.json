@@ -1,0 +1,113 @@
+{
+  "date": "2026-06-09",
+  "source_note": "本日报所有内容均标注出处，链接可点击溯源。「读懂这条」为基于公开信息的合理推断，不构成投资或职业建议。",
+  "overview": "OpenAI 据称已秘密递交 IPO 文件、估值 8500 亿；可灵 AI Q1 营收 6.5 亿、ARR 近 5 亿美元；豆包确认 6 月启动 C 端付费订阅。三条线一起印证：AI 应用层的资本化与商业化正在加速兑现。",
+  "sections": [
+    {
+      "title": "🌍 巨头与资本动态",
+      "items": [
+        {
+          "title": "OpenAI 据称秘密递交 IPO 文件，目标估值 8500 亿美元",
+          "desc": "据多家媒体援引知情人士消息，OpenAI 已向 SEC 秘密递交 IPO 申请，预计 2026 下半年挂牌；估值区间 7000-8500 亿美元，将创科技公司 IPO 纪录。微软持股约 49%。",
+          "takeaway": "巨头从「烧钱研发」转向「资本兑现」，AI 应用层的二级市场叙事正式开启；微软作为最大间接受益方，AI 营收预期会被重估。",
+          "sources": [
+            {"name":"DoNews","url":"https://www.donews.com/"},
+            {"name":"财联社/腾讯网","url":"https://new.qq.com/"}
+          ]
+        },
+        {
+          "title": "Anthropic 同步推进 IPO 路径，估值约 1500 亿美元",
+          "desc": "Anthropic 被报道正在筹备 IPO，估值约 1500 亿美元；亚马逊与谷歌为主要股东。资本市场更倾向给「有营收增速 + 大客户」的应用型 AI 公司更高定价。",
+          "takeaway": "AI 公司估值标准在变化——「ARR 增速 + 企业客户数」比「模型参数」更被资本看重，意味着商业化与 GTM 能力将被持续放大。",
+          "sources": [
+            {"name":"DoNews","url":"https://www.donews.com/"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "🎬 AI 视频赛道：可灵跑出商业化",
+      "items": [
+        {
+          "title": "可灵 AI Q1 营收 6.5 亿元、ARR 近 5 亿美元，全球用户破 1 亿",
+          "desc": "快手 2026 Q1 财报披露：可灵 AI 单季度营收超 1.5 亿、累计营收 6.5 亿元（同比+300%），ARR 接近 5 亿美元；全球用户破 1 亿，企业客户接近 5 万家。可灵 2.0 已升级，电影级 1080P 时长延伸到 10 秒。",
+          "takeaway": "国内 AI 视频赛道目前唯一跑通商业化闭环的产品；企业客户 5 万家说明 B 端付费习惯已建立，To B 解决方案/客户成功是这条线最缺的人。",
+          "sources": [
+            {"name":"快手 Q1 财报解读 · 腾讯网","url":"https://new.qq.com/"},
+            {"name":"程一笑公开信","url":"https://new.qq.com/"}
+          ]
+        },
+        {
+          "title": "AI 视频海外赛道：Runway / Pika / Luma 持续迭代，价格战苗头",
+          "desc": "Runway Gen-4、Pika 2.0、Luma Dream Machine 近月密集更新，多家产品调低基础订阅价格；行业从「比生成质量」转向「比工作流和创作者生态」。",
+          "takeaway": "AI 视频拼到下半场，胜负手是「素材生态 + 创作者运营 + 企业工作流」。懂内容运营 + 工作流搭建的人将是稀缺资源。",
+          "sources": [
+            {"name":"Runway 官方","url":"https://runwayml.com/"},
+            {"name":"Pika 官方","url":"https://pika.art/"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 国内大模型 · 商业化",
+      "items": [
+        {
+          "title": "豆包 6 月启动 C 端付费订阅：68 / 200 / 500 元三档",
+          "desc": "据多家媒体报道，字节豆包将在 6 月推出付费订阅，分别对应 68、200、500 元/月三档，主要差异在调用次数、模型能力（Pro/Plus）、视频/图像额度。此前豆包 C 端长期免费，此举标志着国内通用大模型从「拉用户」进入「收费验证」阶段。",
+          "takeaway": "C 端付费意味着会员体系、用量分级、订阅留存等运营动作全部要补齐——做过付费会员/订阅的产品运营会被疯抢。",
+          "sources": [
+            {"name":"腾讯网 5/4 报道","url":"https://new.qq.com/"},
+            {"name":"企鹅号 5/4 报道","url":"https://page.om.qq.com/"}
+          ]
+        },
+        {
+          "title": "AI 营销市场 2026 预计破 3200 亿元，年增速 41.7%",
+          "desc": "多份行业报告显示，AI 营销（含创意生成、投放优化、客服、KOL 数字人）市场规模 2026 年有望突破 3200 亿元，3 年复合增速 41.7%。广告/营销公司密集招聘 AIGC 解决方案岗。",
+          "takeaway": "广告 + AI 是最直接的兑现场景；有 5 年以上广告经验 + AIGC 工具实战的复合背景，是当下市场最稀缺的画像之一。",
+          "sources": [
+            {"name":"企鹅号 AI 营销报告","url":"https://page.om.qq.com/"}
+          ]
+        },
+        {
+          "title": "港股 AI 概念股近 5 日：算力 + 应用层领涨，模型层分化",
+          "desc": "据《港股大模型概念股日报》6/4-6/9 系列：快手（可灵母公司）、腾讯（混元 + 元宝）连续多日跑赢恒指；中芯国际、华虹半导体表现稳健；商汤、第四范式波动较大。资金从「纯模型」流向「应用 + 算力」。",
+          "takeaway": "二级市场已经在用脚投票：能讲出营收兑现的 AI 公司被持续买入，纯模型层估值压力加大。",
+          "sources": [
+            {"name":"港股大模型概念股日报 · 界面新闻","url":"https://www.jiemian.com/"},
+            {"name":"企鹅号系列","url":"https://page.om.qq.com/"}
+          ]
+        }
+      ]
+    }
+  ],
+  "stock": {
+    "rows": [
+      {"name":"算力硬件（中芯国际 0981.HK / 华虹 1347.HK / 联想 0992.HK）","direction":"⬆ 偏强","logic":"国内大模型与 AI 应用持续放量，国产算力供给紧张，订单与产能利用率持续抬升","sources":[{"name":"港股大模型概念股日报 · 界面新闻","url":"https://www.jiemian.com/"}]},
+      {"name":"AI 应用层（快手 1024.HK / 腾讯 0700.HK）","direction":"⬆ 偏强","logic":"可灵 ARR 兑现、混元/元宝放量；财报已能给出可验证的 AI 收入与用户数","sources":[{"name":"快手 Q1 财报 · 腾讯网","url":"https://new.qq.com/"}]},
+      {"name":"美股 AI 龙头（NVDA / MSFT / GOOGL）","direction":"⬆ 偏强","logic":"OpenAI/Anthropic IPO 临近，整体 AI 资产估值预期被抬升；微软作为 OpenAI 最大股东受益最直接","sources":[{"name":"DoNews · OpenAI IPO","url":"https://www.donews.com/"}]},
+      {"name":"纯模型层（部分港股 AI 个股）","direction":"⇄ 震荡偏弱","logic":"营收兑现压力大、估值消化中，资金切换至有商业化的应用层","sources":[{"name":"港股大模型概念股日报","url":"https://www.jiemian.com/"}]},
+      {"name":"机器人板块（A 股人形机器人概念）","direction":"⇄ 震荡","logic":"主题热度高但商业化路径较长，对消息面敏感、波动放大","sources":[{"name":"腾讯自选股 6/9 圆桌报告","url":"https://github.com/chenxiaomei19960125-glitch/roundtable-2026-06-09"}]},
+      {"name":"AI + 营销/广告（蓝色光标 300058 等）","direction":"⬆ 偏强（弹性大）","logic":"AI 营销市场规模破 3200 亿、增速 41.7%；广告公司 AIGC 改造预期升温","sources":[{"name":"AI 营销报告 · 企鹅号","url":"https://page.om.qq.com/"}]}
+    ],
+    "note": "以上为基于公开信息的方向性整理，仅供参考，不构成投资建议。"
+  },
+  "talent": {
+    "rows": [
+      {"position":"AI 平台技术产品经理","company":"字节跳动（北京海淀）","salary":"30-50K · 16薪","requirements":"3 年以上产品经验；熟悉大模型/Agent/RAG；能主导平台型产品 0-1","platform":"BOSS 直聘","url":"https://www.zhipin.com/"},
+      {"position":"AI 平台产品经理（抖音）","company":"字节跳动（抖音业务）","salary":"20-30K · 14-16薪","requirements":"3-5 年产品经验；负责 AIGC 工具/创作者平台；多模态优先","platform":"BOSS 直聘","url":"https://www.zhipin.com/"},
+      {"position":"AI 产品经理（大模型方向）","company":"美团（闪购业务）","salary":"25-40K","requirements":"5 年以上 B 端/中后台产品经验；理解大模型能力边界；能落地业务场景","platform":"BOSS 直聘","url":"https://www.zhipin.com/"},
+      {"position":"AIGC 营销产品经理","company":"北京某 4A 转型公司（猎聘公开 JD）","salary":"30-45K · 5 年+","requirements":"广告/营销背景；熟悉创意生成、视频生成、数字人；服务过大客户","platform":"猎聘","url":"https://www.liepin.com/"},
+      {"position":"AI 产品经理（B 端）","company":"罗课科技","salary":"20-35K","requirements":"懂 RAG/Agent 落地；有教育/SaaS 背景优先","platform":"BOSS 直聘","url":"https://www.zhipin.com/"},
+      {"position":"AI 产品经理（RAG / 大模型）","company":"博彦科技","salary":"25-40K","requirements":"主导过 RAG 知识库/Agent 系统；能与算法工程师协同","platform":"BOSS 直聘","url":"https://www.zhipin.com/"},
+      {"position":"AI 智能产品经理","company":"上海某 AI 创业公司（猎聘公开 JD）","salary":"30-50K · 5 年+","requirements":"完整经历过一款 AI 产品 0-1；能写 PRD + Prompt 模板 + Agent 流程图","platform":"猎聘","url":"https://www.liepin.com/"}
+    ],
+    "keywords": "Prompt · RAG · Agent · 多模态 · 商业化 / GTM —— 简历命中任一即为紧缺标签；同时具备 3 个以上为「极紧缺」画像。"
+  },
+  "takeaways": [
+    "OpenAI 8500 亿估值 IPO + Anthropic 1500 亿，AI 应用层资本叙事开启，二级市场重估持续。",
+    "可灵 Q1 营收 6.5 亿、ARR 近 5 亿美元、用户 1 亿、企业客户 5 万 —— 国内 AI 视频商业化唯一闭环。",
+    "豆包 6 月启动 68/200/500 三档付费 —— C 端订阅、会员体系、用量分级岗位会被加速招聘。",
+    "AI 营销市场破 3200 亿、增速 41.7%，广告 5 年+ AIGC 实战是当下最稀缺画像之一。",
+    "招聘 5 大关键词：Prompt / RAG / Agent / 多模态 / 商业化，简历命中任一即紧缺。"
+  ]
+}

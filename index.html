@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📰 AI 早报 · 每日 17:00 自动更新</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+         background: #f5f6fa; color: #222; line-height: 1.7; padding: 24px; }
+  .container { max-width: 920px; margin: 0 auto; }
+
+  /* 顶部 */
+  header { background: #fff; border-radius: 14px; padding: 22px 28px; margin-bottom: 20px;
+           box-shadow: 0 2px 10px rgba(0,0,0,.04); display: flex; align-items: center;
+           justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  header h1 { font-size: 24px; color: #1a1a1a; }
+  header .meta { font-size: 13px; color: #888; margin-top: 4px; }
+  .date-picker { display: flex; align-items: center; gap: 8px; }
+  .date-picker label { font-size: 13px; color: #555; }
+  .date-picker select { padding: 8px 12px; border: 1px solid #ddd; border-radius: 8px;
+                        font-size: 14px; background: #fff; cursor: pointer; min-width: 140px; }
+
+  /* 来源声明 */
+  .source-note { background: #e8f4fd; border-left: 4px solid #2196f3; padding: 12px 16px;
+                 border-radius: 6px; font-size: 13px; color: #1565c0; margin-bottom: 16px; }
+
+  /* 总览框 */
+  .overview { background: #fff7d6; border-left: 5px solid #f5b400; padding: 16px 20px;
+              border-radius: 10px; margin-bottom: 24px; font-size: 15px; }
+  .overview b { color: #b87800; }
+
+  /* 卡片块 */
+  section { background: #fff; border-radius: 14px; padding: 22px 26px; margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,.04); }
+  section h2 { font-size: 18px; margin-bottom: 14px; padding-bottom: 10px;
+               border-bottom: 2px solid #f0f0f0; }
+
+  /* 新闻条目 */
+  .news { padding: 14px 0; border-bottom: 1px dashed #eee; }
+  .news:last-child { border-bottom: none; }
+  .news h3 { font-size: 15.5px; color: #1a1a1a; margin-bottom: 6px; }
+  .news .desc { font-size: 14px; color: #444; margin-bottom: 8px; }
+  .news .takeaway { background: #f4f4f8; border-left: 3px solid #6c5ce7; padding: 8px 12px;
+                    border-radius: 4px; font-size: 13.5px; color: #333; }
+  .news .takeaway b { color: #6c5ce7; }
+  .news .source { font-size: 12px; color: #888; margin-top: 6px; }
+  .news .source a { color: #2196f3; text-decoration: none; }
+  .news .source a:hover { text-decoration: underline; }
+
+  /* 表格 */
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-top: 8px; }
+  th, td { border: 1px solid #eee; padding: 10px 12px; text-align: left; vertical-align: top; }
+  th { background: #fafafa; font-weight: 600; }
+
+  /* 板块色 */
+  .stock { border-left: 5px solid #2ecc71; }
+  .talent { border-left: 5px solid #e84393; }
+
+  /* takeaway 底部 */
+  .final { background: #1a1a1a; color: #fff; border-radius: 14px; padding: 22px 26px; }
+  .final h2 { color: #fff; border-bottom: 2px solid #444; }
+  .final ol { padding-left: 22px; margin-top: 10px; }
+  .final li { margin-bottom: 8px; font-size: 14px; }
+
+  /* 加载/空状态 */
+  .loading, .empty { text-align: center; padding: 40px; color: #999; }
+
+  footer { text-align: center; color: #aaa; font-size: 12px; padding: 20px 0; }
+
+  @media (max-width: 600px) {
+    body { padding: 12px; }
+    header { padding: 16px; }
+    header h1 { font-size: 20px; }
+    section { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+  <div>
+    <h1>📰 AI 早报</h1>
+    <div class="meta" id="meta">加载中…</div>
+  </div>
+  <div class="date-picker">
+    <label for="dateSelect">📅 日期：</label>
+    <select id="dateSelect"></select>
+  </div>
+</header>
+
+<div id="content">
+  <div class="loading">数据加载中…</div>
+</div>
+
+<footer>
+  · 每天下午 17:00 自动更新 · 数据来源公开渠道，链接可溯源 ·<br>
+  仓库：<a href="https://github.com/chenxiaomei19960125-glitch/ai-daily" style="color:#888;">github.com/chenxiaomei19960125-glitch/ai-daily</a>
+</footer>
+
+</div>
+
+<script>
+// ============ 数据加载逻辑 ============
+async function loadIndex() {
+  const r = await fetch('data/index.json?t=' + Date.now());
+  return await r.json();
+}
+async function loadDay(date) {
+  const r = await fetch(`data/${date}.json?t=` + Date.now());
+  if (!r.ok) throw new Error('not found');
+  return await r.json();
+}
+
+function escapeHtml(s) {
+  return String(s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function renderSources(sources) {
+  if (!sources || !sources.length) return '';
+  return '<div class="source">📎 来源：' + sources.map(s =>
+    `<a href="${escapeHtml(s.url)}" target="_blank">${escapeHtml(s.name)}</a>`
+  ).join('　') + '</div>';
+}
+
+function renderNewsBlock(title, items) {
+  if (!items || !items.length) return '';
+  return `<section>
+    <h2>${escapeHtml(title)}</h2>
+    ${items.map(n => `
+      <div class="news">
+        <h3>${escapeHtml(n.title)}</h3>
+        <div class="desc">${escapeHtml(n.desc)}</div>
+        ${n.takeaway ? `<div class="takeaway"><b>💡 读懂这条：</b>${escapeHtml(n.takeaway)}</div>` : ''}
+        ${renderSources(n.sources)}
+      </div>
+    `).join('')}
+  </section>`;
+}
+
+function renderStock(stock) {
+  if (!stock || !stock.rows || !stock.rows.length) return '';
+  return `<section class="stock">
+    <h2>📈 AI 股市信号 · 7-30 天方向参考</h2>
+    <table>
+      <thead><tr><th>板块/标的</th><th>方向</th><th>核心逻辑</th><th>来源</th></tr></thead>
+      <tbody>
+        ${stock.rows.map(r => `<tr>
+          <td>${escapeHtml(r.name)}</td>
+          <td>${escapeHtml(r.direction)}</td>
+          <td>${escapeHtml(r.logic)}</td>
+          <td>${(r.sources||[]).map(s=>`<a href="${escapeHtml(s.url)}" target="_blank">${escapeHtml(s.name)}</a>`).join('<br>')}</td>
+        </tr>`).join('')}
+      </tbody>
+    </table>
+    ${stock.note ? `<div style="margin-top:10px;font-size:12px;color:#888;">${escapeHtml(stock.note)}</div>` : ''}
+  </section>`;
+}
+
+function renderTalent(talent) {
+  if (!talent || !talent.rows || !talent.rows.length) return '';
+  return `<section class="talent">
+    <h2>💼 AI 人才市场 · 招聘端最新要求（含来源公司）</h2>
+    <table>
+      <thead><tr><th>岗位</th><th>来源公司</th><th>薪资</th><th>核心要求</th><th>JD 链接</th></tr></thead>
+      <tbody>
+        ${talent.rows.map(r => `<tr>
+          <td>${escapeHtml(r.position)}</td>
+          <td><b>${escapeHtml(r.company)}</b></td>
+          <td>${escapeHtml(r.salary)}</td>
+          <td>${escapeHtml(r.requirements)}</td>
+          <td>${r.url ? `<a href="${escapeHtml(r.url)}" target="_blank">${escapeHtml(r.platform||'查看')}</a>` : '—'}</td>
+        </tr>`).join('')}
+      </tbody>
+    </table>
+    ${talent.keywords ? `<div style="margin-top:12px;padding:10px 14px;background:#fef0f6;border-radius:6px;font-size:13.5px;">
+      <b>🔑 招聘端最值钱的简历关键词：</b>${escapeHtml(talent.keywords)}
+    </div>` : ''}
+  </section>`;
+}
+
+function renderTakeaway(takeaways) {
+  if (!takeaways || !takeaways.length) return '';
+  return `<section class="final">
+    <h2>📌 今日 5 条 Takeaway</h2>
+    <ol>${takeaways.map(t => `<li>${escapeHtml(t)}</li>`).join('')}</ol>
+  </section>`;
+}
+
+function render(data) {
+  const html = [];
+  html.push(`<div class="source-note">📎 <b>数据来源声明：</b>${escapeHtml(data.source_note || '本日报所有内容均标注出处，链接可点击溯源。「读懂这条」中的解读结论为基于公开信息的合理推断，不构成投资或职业建议。')}</div>`);
+  if (data.overview) html.push(`<div class="overview"><b>🌅 今日总览：</b>${escapeHtml(data.overview)}</div>`);
+  (data.sections || []).forEach(sec => html.push(renderNewsBlock(sec.title, sec.items)));
+  html.push(renderStock(data.stock));
+  html.push(renderTalent(data.talent));
+  html.push(renderTakeaway(data.takeaways));
+  document.getElementById('content').innerHTML = html.join('');
+}
+
+async function init() {
+  try {
+    const idx = await loadIndex();
+    const sel = document.getElementById('dateSelect');
+    idx.dates.forEach(d => {
+      const opt = document.createElement('option');
+      opt.value = d; opt.textContent = d;
+      sel.appendChild(opt);
+    });
+    sel.value = idx.dates[0];
+    document.getElementById('meta').textContent = `共 ${idx.dates.length} 期 · 最新更新：${idx.last_update || idx.dates[0]}`;
+
+    async function show(date) {
+      document.getElementById('content').innerHTML = '<div class="loading">加载中…</div>';
+      try {
+        const data = await loadDay(date);
+        render(data);
+      } catch (e) {
+        document.getElementById('content').innerHTML = '<div class="empty">该日期暂无数据</div>';
+      }
+    }
+    sel.addEventListener('change', () => show(sel.value));
+    await show(sel.value);
+  } catch (e) {
+    document.getElementById('content').innerHTML = '<div class="empty">数据加载失败：' + e.message + '</div>';
+  }
+}
+init();
+</script>
+</body>
+</html>
