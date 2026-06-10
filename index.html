@@ -167,13 +167,24 @@ function renderTalentGroup(group) {
     <table>
       <thead><tr><th>岗位</th><th>来源公司</th><th>薪资</th><th>核心要求</th><th>JD 链接</th></tr></thead>
       <tbody>
-        ${group.rows.map(r => `<tr>
-          <td>${escapeHtml(r.position)}</td>
-          <td><b>${escapeHtml(r.company)}</b></td>
-          <td>${escapeHtml(r.salary)}</td>
-          <td>${escapeHtml(r.requirements)}</td>
-          <td>${r.url ? `<a href="${escapeHtml(r.url)}" target="_blank">${escapeHtml(r.platform||'查看')}</a>` : '—'}</td>
-        </tr>`).join('')}
+        ${group.rows.map(r => {
+          const mainRow = `<tr>
+            <td>${escapeHtml(r.position)}</td>
+            <td><b>${escapeHtml(r.company)}</b></td>
+            <td>${escapeHtml(r.salary)}</td>
+            <td>${escapeHtml(r.requirements)}</td>
+            <td>${r.url ? `<a href="${escapeHtml(r.url)}" target="_blank" rel="noopener">${escapeHtml(r.platform||'查看 JD')}</a>` : '—'}</td>
+          </tr>`;
+          const excerptRow = r.jd_excerpt ? `<tr class="jd-excerpt-row">
+            <td colspan="5" style="padding:0;background:#fafbfd;">
+              <details style="padding:10px 14px;">
+                <summary style="cursor:pointer;color:#555;font-size:13px;font-weight:500;user-select:none;">📄 展开 JD 原文摘录</summary>
+                <div style="margin-top:8px;padding:10px 14px;background:#fff;border-left:3px solid #c2185b;border-radius:4px;font-size:13px;line-height:1.75;color:#333;white-space:pre-wrap;">${escapeHtml(r.jd_excerpt)}</div>
+              </details>
+            </td>
+          </tr>` : '';
+          return mainRow + excerptRow;
+        }).join('')}
       </tbody>
     </table>`;
 }
