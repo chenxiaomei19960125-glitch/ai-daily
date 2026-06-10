@@ -1,0 +1,228 @@
+{
+  "date": "2026-06-10",
+  "source_note": "本日报内容由脚本自动抓取自下方公开渠道 RSS，每条均保留原始链接可溯源。「读懂这条」如为空，表示当天无人工解读，请点链接查看原文。",
+  "overview": "自动汇总 2026-06-10 AI 圈公开 RSS 源最新资讯，共抓取 18 条。详细解读、股市与人才板块由人工每日 17:00 后补充。",
+  "sections": [
+    {
+      "title": "🌍 海外 AI 巨头与科技媒体",
+      "items": [
+        {
+          "title": "How engineers at Nextdoor use Codex to build without limits",
+          "desc": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/nextdoor"
+            }
+          ]
+        },
+        {
+          "title": "What Codex unlocks for Notion",
+          "desc": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/notion"
+            }
+          ]
+        },
+        {
+          "title": "Industrial policy for the Intelligence Age",
+          "desc": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institut",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age"
+            }
+          ]
+        },
+        {
+          "title": "Confidential submission of draft S-1 to the SEC",
+          "desc": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/openai-submits-confidential-s-1"
+            }
+          ]
+        },
+        {
+          "title": "Built to benefit everyone: our plan",
+          "desc": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/built-to-benefit-everyone-our-plan"
+            }
+          ]
+        },
+        {
+          "title": "Introducing the OpenAI Economic Research Exchange",
+          "desc": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research proj",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/economic-research-exchange"
+            }
+          ]
+        },
+        {
+          "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
+          "desc": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "Google DeepMind",
+              "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/"
+            }
+          ]
+        },
+        {
+          "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+          "desc": "（点击「来源」查看原文）",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "Google DeepMind",
+              "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 国内 AI 媒体精选",
+      "items": [
+        {
+          "title": "刚刚，Claude Mythos 5发布！5000万行代码1天搞定",
+          "desc": "一个更强的模型上桌了",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/433590.html"
+            }
+          ]
+        },
+        {
+          "title": "内蒙跑通AI逆袭新解法",
+          "desc": "全行业的Token焦虑何解？",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/433565.html"
+            }
+          ]
+        },
+        {
+          "title": "理想智驾一号位创业，落户北京亦庄了",
+          "desc": "10天跻身具身独角兽",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/433560.html"
+            }
+          ]
+        },
+        {
+          "title": "你最该认识的「硅谷CEO」：面试紧张，害怕演讲，管出最赚钱的AI广告公司",
+          "desc": "祝大家都能找到，属于自己的驱动力",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/433517.html"
+            }
+          ]
+        },
+        {
+          "title": "与爱为舞亮相腾讯云AI产业应用大会，深耕教育大模型，打造下一代学习Agent",
+          "desc": "（点击「来源」查看原文）",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/433508.html"
+            }
+          ]
+        },
+        {
+          "title": "仅4B大小可端侧部署！卡帕西预言的「认知模型」被国产做出来了",
+          "desc": "效果比肩GPT-5.4",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/433478.html"
+            }
+          ]
+        },
+        {
+          "title": "A股三大指数集体收跌，沪深京三市超3800股飘绿",
+          "desc": "36氪获悉，A股三大指数集体收跌，沪指跌0.42%，深成指跌2.06%，创业板指跌2.7%；贵金属、通信设备、汽车零部件板块领跌，长华集团跌停，天孚通信跌超7%，招金黄金跌超5%；大金融、白酒板块走强，中国人寿涨超4%，苏州银行、广发证券涨超2%， 山西汾酒涨超1%；沪深京三市超3800股飘绿。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3847010286635266?f=rss"
+            }
+          ]
+        },
+        {
+          "title": "沪深两市成交额连续第33个交易日突破2.5万亿元",
+          "desc": "36氪获悉，沪深两市成交额连续第33个交易日突破2.5万亿元。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3847002848070148?f=rss"
+            }
+          ]
+        },
+        {
+          "title": "工信部：加强高端光电芯片和器件研发",
+          "desc": "36氪获悉，工信部印发《“人工智能+信息通信”创新发展实施意见（2026—2028年）》的通知。加强高端光电芯片和器件研发：加强高速光电芯片、高速转发/交换芯片、全光交换器件、光电共封装器件等技术和产品研发验证，开展光电混合组网技术试验，加速技术方案成熟。加强智算超节点光电互联技术攻关，开展智算网络技术与产品验证。加强",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3847002641533446?f=rss"
+            }
+          ]
+        },
+        {
+          "title": "工信部：加快建设400Gbps/800Gbps等骨干传输网络",
+          "desc": "36氪获悉，工信部印发《“人工智能+信息通信”创新发展实施意见（2026—2028年）》的通知。加快建设400Gbps/800Gbps等骨干传输网络，优化东中西部国家枢纽节点之间网络传输4通道。有序推进城域400Gbps及以上、全光交叉等高速光传输系统设备应用。优化互联网骨干直联点、新型互联网交换中心等布局，提升网间数",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3847002408749574?f=rss"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stock": {
+    "rows": [],
+    "note": "今日股市板块待人工补充。"
+  },
+  "talent": {
+    "rows": [],
+    "keywords": "今日人才板块待人工补充。"
+  },
+  "takeaways": [
+    "本日共抓取 18 条 AI 资讯，详见上方板块。",
+    "每条均带原始链接，点击「来源」可直达原文核实。",
+    "股市方向、人才市场板块由人工每日 17:00 后追加更新。"
+  ]
+}
