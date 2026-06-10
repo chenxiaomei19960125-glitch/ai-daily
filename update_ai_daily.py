@@ -137,21 +137,112 @@ def collect():
         "today":  today
     }
 
+def is_mostly_english(s):
+    """简易判断：英文字符占比 > 60% 视为英文标题/摘要"""
+    if not s: return False
+    letters = sum(1 for c in s if c.isascii() and c.isalpha())
+    chinese = sum(1 for c in s if '\u4e00' <= c <= '\u9fff')
+    if chinese >= 4: return False
+    return letters > 8 and (chinese == 0 or letters / max(letters + chinese, 1) > 0.6)
+
+_TRANSLATE_CACHE = {}
+
+def translate_to_zh(text, timeout=8):
+    """调用 Google 翻译免费网页接口（无需 key），把英文翻成中文。
+    失败时返回原文。带本地缓存避免重复请求。"""
+    if not text or not text.strip():
+        return text
+    if text in _TRANSLATE_CACHE:
+        return _TRANSLATE_CACHE[text]
+    try:
+        from urllib.parse import quote
+        # gtx 是 Google 翻译公开端点，多年稳定
+        url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q={quote(text[:1500])}"
+        req = Request(url, headers={"User-Agent": UA})
+        with urlopen(req, timeout=timeout) as r:
+            data = json.loads(r.read().decode('utf-8'))
+        # 返回结构: [[["译文","原文",None,None,...],...], ...]
+        parts = [seg[0] for seg in data[0] if seg and seg[0]]
+        zh = ''.join(parts).strip()
+        if zh and zh != text:
+            _TRANSLATE_CACHE[text] = zh
+            return zh
+    except Exception as e:
+        log(f"[translate] 失败 fallback 原文: {e}")
+    return text
+
+def chineseify_item(it):
+    """海外英文条目：调用翻译接口把标题/摘要真翻译成中文。
+    翻译失败兜底加 [待翻译] 前缀，避免页面出现一堆英文。"""
+    title = it.get('title', '')
+    if is_mostly_english(title):
+        zh = translate_to_zh(title)
+        if zh and zh != title:
+            it['title'] = zh
+        elif not title.startswith('[待翻译]'):
+            it['title'] = '[待翻译] ' + title
+    desc = it.get('desc', '')
+    if is_mostly_english(desc):
+        zh = translate_to_zh(desc)
+        if zh and zh != desc:
+            it['desc'] = zh
+        elif not desc.startswith('[英文原文]'):
+            it['desc'] = '[英文原文] ' + desc
+    return it
+
+def load_previous_daily():
+    """找到 data/ 下日期排序最新（且非今天）的一份日报，返回 dict 或 None。
+    用于继承 stock / talent 板块，避免今天页面突然变空。"""
+    today = datetime.now(CN_TZ).strftime('%Y-%m-%d')
+    files = sorted(
+        [f for f in os.listdir(DATA_DIR) if re.match(r'^\d{4}-\d{2}-\d{2}\.json$', f)],
+        reverse=True
+    )
+    for fn in files:
+        if fn[:-5] == today: continue
+        try:
+            with open(os.path.join(DATA_DIR, fn), 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception:
+            continue
+    return None
+
 def build_daily(today, raw):
+    # 海外英文条目自动加上「待翻译」标记
+    raw_global = [chineseify_item(dict(it)) for it in raw["global"]]
+    raw_media  = list(raw["media"])
+
+    # 默认继承昨天的股市/人才板块（如果有），避免页面突然变空
+    prev = load_previous_daily()
+    if prev:
+        stock = dict(prev.get('stock', {}))
+        if stock.get('rows'):
+            stock['note'] = (stock.get('note', '') +
+                f"\n（注：本板块继承自 {prev.get('date','上一日')}，行情变化不大；如需调整请人工编辑。）").strip()
+        else:
+            stock = {"rows": [], "note": "今日股市板块待人工补充。"}
+
+        talent = dict(prev.get('talent', {}))
+        if not (talent.get('groups') or talent.get('rows')):
+            talent = {"rows": [], "keywords": "今日人才板块待人工补充。"}
+    else:
+        stock  = {"rows": [], "note": "今日股市板块待人工补充。"}
+        talent = {"rows": [], "keywords": "今日人才板块待人工补充。"}
+
     return {
         "date": today,
-        "source_note": "本日报内容由脚本自动抓取自下方公开渠道 RSS，每条均保留原始链接可溯源。「读懂这条」如为空，表示当天无人工解读，请点链接查看原文。",
-        "overview": f"自动汇总 {today} AI 圈公开 RSS 源最新资讯，共抓取 {len(raw['global'])+len(raw['media'])} 条。详细解读、股市与人才板块由人工每日 17:00 后补充。",
+        "source_note": "本日报内容由脚本自动抓取自下方公开渠道 RSS，每条均保留原始链接可溯源。海外英文条目已用「[待翻译]」标记，建议人工补充中文标题与解读。",
+        "overview": f"自动汇总 {today} AI 圈公开 RSS 源最新资讯，共抓取 {len(raw_global)+len(raw_media)} 条。股市/人才板块默认继承上一日内容，建议人工每日 17:00 后追加最新解读。",
         "sections": [
-            {"title": "🌍 海外 AI 巨头与科技媒体", "items": raw["global"]},
-            {"title": "🇨🇳 国内 AI 媒体精选",       "items": raw["media"]},
+            {"title": "🌍 海外 AI 巨头与科技媒体", "items": raw_global},
+            {"title": "🇨🇳 国内 AI 媒体精选",       "items": raw_media},
         ],
-        "stock":  {"rows": [], "note": "今日股市板块待人工补充。"},
-        "talent": {"rows": [], "keywords": "今日人才板块待人工补充。"},
+        "stock":  stock,
+        "talent": talent,
         "takeaways": [
-            f"本日共抓取 {len(raw['global'])+len(raw['media'])} 条 AI 资讯，详见上方板块。",
+            f"本日共抓取 {len(raw_global)+len(raw_media)} 条 AI 资讯，详见上方板块。",
             "每条均带原始链接，点击「来源」可直达原文核实。",
-            "股市方向、人才市场板块由人工每日 17:00 后追加更新。"
+            "股市与人才市场板块默认继承上一日，可在 data/YYYY-MM-DD.json 中人工调整。"
         ]
     }
 

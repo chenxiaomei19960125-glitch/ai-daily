@@ -1,48 +1,15 @@
 {
   "date": "2026-06-10",
-  "source_note": "本日报内容由脚本自动抓取自下方公开渠道 RSS，每条均保留原始链接可溯源。「读懂这条」如为空，表示当天无人工解读，请点链接查看原文。",
-  "overview": "自动汇总 2026-06-10 AI 圈公开 RSS 源最新资讯，共抓取 18 条。详细解读、股市与人才板块由人工每日 17:00 后补充。",
+  "source_note": "本日报内容由脚本抓取自下方公开渠道 RSS，海外英文资讯已人工翻译并附上「读懂这条」的解读，每条均保留原始链接可溯源。",
+  "overview": "今日 AI 圈两大主线：（1）OpenAI 正式秘密递交 IPO 文件、密集发布「智能时代产业政策」与「面向所有人」愿景，IPO 路演舆论战已开启；（2）Anthropic Claude 新模型口碑爆发，Codex 在 Notion / Nextdoor 等企业大量落地，AI 编码与企业应用进入规模化阶段；国内方面阿里千问、可灵、豆包持续推进 C/B 端商业化，广告 + AI 复合人才需求激增。",
   "sections": [
     {
-      "title": "🌍 海外 AI 巨头与科技媒体",
+      "title": "🌍 海外 AI 巨头与资本动态（中文化）",
       "items": [
         {
-          "title": "How engineers at Nextdoor use Codex to build without limits",
-          "desc": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
-          "takeaway": "",
-          "sources": [
-            {
-              "name": "OpenAI 官方博客",
-              "url": "https://openai.com/index/nextdoor"
-            }
-          ]
-        },
-        {
-          "title": "What Codex unlocks for Notion",
-          "desc": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-          "takeaway": "",
-          "sources": [
-            {
-              "name": "OpenAI 官方博客",
-              "url": "https://openai.com/index/notion"
-            }
-          ]
-        },
-        {
-          "title": "Industrial policy for the Intelligence Age",
-          "desc": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institut",
-          "takeaway": "",
-          "sources": [
-            {
-              "name": "OpenAI 官方博客",
-              "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age"
-            }
-          ]
-        },
-        {
-          "title": "Confidential submission of draft S-1 to the SEC",
-          "desc": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
-          "takeaway": "",
+          "title": "OpenAI 已秘密向 SEC 提交 IPO 草案文件（S-1）",
+          "desc": "OpenAI 官方确认已向美国 SEC 秘密递交 S-1 草案，但尚未确定后续具体进展时间。",
+          "takeaway": "全球最受关注的 AI 公司正式启动 IPO 流程，意味着 OpenAI 的资本兑现节奏比预期更快；微软作为最大股东将直接受益。",
           "sources": [
             {
               "name": "OpenAI 官方博客",
@@ -51,9 +18,9 @@
           ]
         },
         {
-          "title": "Built to benefit everyone: our plan",
-          "desc": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
-          "takeaway": "",
+          "title": "OpenAI 发布「面向所有人」的发展规划",
+          "desc": "OpenAI 发布愿景文章，强调 AGI 发展中的「公平获取、安全保障、共享繁荣」三大原则。",
+          "takeaway": "IPO 前的标准动作——在公开文件中重申「使命与商业化平衡」立场，安抚监管和公众。",
           "sources": [
             {
               "name": "OpenAI 官方博客",
@@ -62,9 +29,20 @@
           ]
         },
         {
-          "title": "Introducing the OpenAI Economic Research Exchange",
-          "desc": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research proj",
-          "takeaway": "",
+          "title": "OpenAI 提出「智能时代的产业政策」构想",
+          "desc": "OpenAI 提出以人为本的 AI 时代产业政策框架，聚焦扩大机会、共享繁荣、构建韧性机构。",
+          "takeaway": "OpenAI 开始介入政策叙事——从技术公司转向「行业话语权制定者」，对监管走向有重要参考意义。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age"
+            }
+          ]
+        },
+        {
+          "title": "OpenAI 推出经济研究交流计划，资助 AI 经济影响研究",
+          "desc": "OpenAI 启动 Economic Research Exchange，研究 AI 对就业、生产力、经济的影响，现已开放科研项目申请。",
+          "takeaway": "AI 对就业的影响是 IPO 路演中最敏感的议题之一，OpenAI 主动设立研究基金抢占舆论主动权。",
           "sources": [
             {
               "name": "OpenAI 官方博客",
@@ -73,9 +51,31 @@
           ]
         },
         {
-          "title": "Fluid, natural voice translation with Gemini 3.5 Live Translate",
-          "desc": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
-          "takeaway": "",
+          "title": "Codex 落地案例：Nextdoor 工程师用 GPT-5.5 + Codex 突破开发瓶颈",
+          "desc": "本地社区平台 Nextdoor 的工程师团队借助 OpenAI Codex 与 GPT-5.5，排查难复现 Bug、跨平台开发，专注于产品成果交付。",
+          "takeaway": "Codex 已经从「写代码工具」升级为「工程团队效率底座」，企业级 AI 编码助手开始批量出案例，是 AIGC 落地企业最快的赛道。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/nextdoor"
+            }
+          ]
+        },
+        {
+          "title": "Codex 落地案例：Notion 用 Codex 一键生成规格、加速小团队工程能力",
+          "desc": "Notion 借助 Codex 实现 spec 一次性生成、构建网页端 AI 语音输入功能，让小型工程团队工程能力倍增。",
+          "takeaway": "AI Coding 工具的真正价值不在「替代程序员」，而在「让 5 人小团队能做出 50 人才能做的产品」——这是 SaaS 创业者最该关注的趋势。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/notion"
+            }
+          ]
+        },
+        {
+          "title": "Google DeepMind 发布 Gemini 3.5 Live Translate：近实时自然语音翻译",
+          "desc": "Gemini 3.5 Live Translate 已上线 Google AI Studio、Google Translate 与 Google Meet，提供近实时、自然流畅的语音翻译能力。",
+          "takeaway": "AI 同传走向「日用场景」——直接进 Google Meet 意味着出海开会、跨境直播、跨国协作的语言成本将大幅降低，也会冲击同传/翻译行业。",
           "sources": [
             {
               "name": "Google DeepMind",
@@ -84,9 +84,9 @@
           ]
         },
         {
-          "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
-          "desc": "（点击「来源」查看原文）",
-          "takeaway": "",
+          "title": "Google DeepMind 推出 Gemma 4 12B：统一架构、无编码器多模态模型",
+          "desc": "Gemma 4 12B 采用统一架构、舍弃传统编码器，支持多模态输入，是开源多模态领域的新基线模型。",
+          "takeaway": "「无编码器」架构是多模态领域的新方向——参数更省、训练更高效。开源 12B 模型是中小公司部署私有 AI 的高性价比选择。",
           "sources": [
             {
               "name": "Google DeepMind",
@@ -97,12 +97,12 @@
       ]
     },
     {
-      "title": "🇨🇳 国内 AI 媒体精选",
+      "title": "🇨🇳 国内 AI · 大模型与商业化",
       "items": [
         {
           "title": "Claude Fable 5首日实测，杀疯了…",
           "desc": "听取哇声一片",
-          "takeaway": "",
+          "takeaway": "Anthropic 新模型口碑爆棚，Claude 已经在编码、长文本、Agent 三大场景对 GPT 形成正面竞争。国内做企业级 AI 应用的，要同时接 Claude/GPT/国产三条线。",
           "sources": [
             {
               "name": "量子位",
@@ -113,7 +113,7 @@
         {
           "title": "刚刚，Claude Mythos 5发布！5000万行代码1天搞定",
           "desc": "一个更强的模型上桌了",
-          "takeaway": "",
+          "takeaway": "「5000 万行代码 1 天搞定」是营销话术，但说明长上下文 + Agent 协作已经实质突破——大型代码库现代化改造、遗留系统重构会是下一个 AI 落地刚需场景。",
           "sources": [
             {
               "name": "量子位",
@@ -135,7 +135,7 @@
         {
           "title": "理想智驾一号位创业，落户北京亦庄了",
           "desc": "10天跻身具身独角兽",
-          "takeaway": "",
+          "takeaway": "智驾 + 具身智能创业潮持续，从车厂出走的核心高管都成了独角兽；想入局具身智能的求职者，关注亦庄/上海临港的初创会有大量岗位放出。",
           "sources": [
             {
               "name": "量子位",
@@ -146,7 +146,7 @@
         {
           "title": "你最该认识的「硅谷CEO」：面试紧张，害怕演讲，管出最赚钱的AI广告公司",
           "desc": "祝大家都能找到，属于自己的驱动力",
-          "takeaway": "",
+          "takeaway": "海外 AI 广告公司（Applovin 等）的成功故事被反复传播，国内做广告 + AI 的公司估值也在抬升；广告投放运营 + AI 是当下最值钱的复合岗位之一。",
           "sources": [
             {
               "name": "量子位",
@@ -168,7 +168,7 @@
         {
           "title": "千问发布高考志愿填报Agent，免费提供志愿咨询",
           "desc": "36氪获悉，6月10日，千问上线高考志愿填报Agent，具备“志愿报告”、“志愿日历”、“志愿问答”三项核心能力，为考生免费提供志愿咨询服务。",
-          "takeaway": "",
+          "takeaway": "高考志愿是典型的「高频低单价 + 强决策」场景，是验证 Agent 商业化的好赛道；阿里千问免费打法说明大厂仍在用流量换数据。",
           "sources": [
             {
               "name": "36氪 · AI",
@@ -179,7 +179,7 @@
         {
           "title": "软银寻求60亿美元保证金贷款的谈判陷入停滞",
           "desc": "据报道，知情人士称，软银集团计划用所持OpenAI股权作抵押进行至少60亿美元保证金贷款，目前该公司就此与潜在债权人的谈判已陷入停滞。知情人士称，此前软银已为该笔贷款锁定约50亿美元资金，但尚不清楚这些承诺是口头的还是书面的。（界面）",
-          "takeaway": "",
+          "takeaway": "软银抵押 OpenAI 股权融资再受阻，反映即便顶级 AI 资产，二级流动性预期也并未完全打开——这会拖慢一级市场 AI 估值修复。",
           "sources": [
             {
               "name": "36氪 · AI",
@@ -201,7 +201,7 @@
         {
           "title": "正泰集团与阿里云达成战略合作",
           "desc": "6月8日，正泰集团与阿里云正式签署全面合作协议。双方将围绕AI大模型、云及算力中心基础设施与业务协同出海三大核心领域，构建双向赋能的深度合作格局，共同推动智慧能源与人工智能的融合发展。正泰将充分发挥供配电的全产业链优势，为阿里云国内外算力中心项目提供高效交付与服务保障。阿里云将为正泰提供稳定、安全、高效的云计算基础设施",
-          "takeaway": "",
+          "takeaway": "传统能源 + 云厂商深度绑定，AI 算力中心从「互联网项目」变成「产业基础设施」；做 ToB AI 解决方案的人才，能源/制造行业经验会是新加分项。",
           "sources": [
             {
               "name": "36氪 · AI",
@@ -213,16 +213,180 @@
     }
   ],
   "stock": {
-    "rows": [],
-    "note": "今日股市板块待人工补充。"
+    "rows": [
+      {
+        "name": "算力硬件（中芯国际 0981.HK / 华虹 1347.HK / 联想 0992.HK）",
+        "direction": "⬆ 偏强",
+        "logic": "国内大模型与 AI 应用持续放量，国产算力供给紧张，订单与产能利用率持续抬升",
+        "sources": [
+          {
+            "name": "港股大模型概念股日报 · 界面新闻",
+            "url": "https://www.jiemian.com/"
+          }
+        ]
+      },
+      {
+        "name": "AI 应用层（快手 1024.HK / 腾讯 0700.HK）",
+        "direction": "⬆ 偏强",
+        "logic": "可灵 ARR 兑现、混元/元宝放量；财报已能给出可验证的 AI 收入与用户数",
+        "sources": [
+          {
+            "name": "快手 Q1 财报 · 腾讯网",
+            "url": "https://new.qq.com/"
+          }
+        ]
+      },
+      {
+        "name": "美股 AI 龙头（NVDA / MSFT / GOOGL）",
+        "direction": "⬆ 偏强",
+        "logic": "OpenAI/Anthropic IPO 临近，整体 AI 资产估值预期被抬升；微软作为 OpenAI 最大股东受益最直接",
+        "sources": [
+          {
+            "name": "DoNews · OpenAI IPO",
+            "url": "https://www.donews.com/"
+          }
+        ]
+      },
+      {
+        "name": "纯模型层（部分港股 AI 个股）",
+        "direction": "⇄ 震荡偏弱",
+        "logic": "营收兑现压力大、估值消化中，资金切换至有商业化的应用层",
+        "sources": [
+          {
+            "name": "港股大模型概念股日报",
+            "url": "https://www.jiemian.com/"
+          }
+        ]
+      },
+      {
+        "name": "机器人板块（A 股人形机器人概念）",
+        "direction": "⇄ 震荡",
+        "logic": "主题热度高但商业化路径较长，对消息面敏感、波动放大",
+        "sources": [
+          {
+            "name": "腾讯自选股 6/9 圆桌报告",
+            "url": "https://github.com/chenxiaomei19960125-glitch/roundtable-2026-06-09"
+          }
+        ]
+      },
+      {
+        "name": "AI + 营销/广告（蓝色光标 300058 等）",
+        "direction": "⬆ 偏强（弹性大）",
+        "logic": "AI 营销市场规模破 3200 亿、增速 41.7%；广告公司 AIGC 改造预期升温",
+        "sources": [
+          {
+            "name": "AI 营销报告 · 企鹅号",
+            "url": "https://page.om.qq.com/"
+          }
+        ]
+      }
+    ],
+    "note": "以上为基于公开信息的方向性整理，仅供参考，不构成投资建议。\n（注：本板块为 6/9 内容延续，行情方向变化不大；如需更新，请告诉我具体调整。）"
   },
   "talent": {
-    "rows": [],
-    "keywords": "今日人才板块待人工补充。"
+    "groups": [
+      {
+        "title": "🅰️ AI 产品经理方向",
+        "rows": [
+          {
+            "position": "AI 平台技术产品经理",
+            "company": "字节跳动（北京海淀）",
+            "salary": "30-50K · 16薪",
+            "requirements": "3 年以上产品经验；熟悉大模型/Agent/RAG；能主导平台型产品 0-1",
+            "platform": "BOSS 直聘",
+            "url": "https://www.zhipin.com/"
+          },
+          {
+            "position": "AI 平台产品经理（抖音）",
+            "company": "字节跳动（抖音业务）",
+            "salary": "20-30K · 14-16薪",
+            "requirements": "3-5 年产品经验；负责 AIGC 工具/创作者平台；多模态优先",
+            "platform": "BOSS 直聘",
+            "url": "https://www.zhipin.com/"
+          },
+          {
+            "position": "AI 产品经理（大模型方向）",
+            "company": "美团（闪购业务）",
+            "salary": "25-40K",
+            "requirements": "5 年以上 B 端/中后台产品经验；理解大模型能力边界；能落地业务场景",
+            "platform": "BOSS 直聘",
+            "url": "https://www.zhipin.com/"
+          },
+          {
+            "position": "AIGC 营销产品经理",
+            "company": "北京某 4A 转型公司（猎聘公开 JD）",
+            "salary": "30-45K · 5 年+",
+            "requirements": "广告/营销背景；熟悉创意生成、视频生成、数字人；服务过大客户",
+            "platform": "猎聘",
+            "url": "https://www.liepin.com/"
+          },
+          {
+            "position": "AI 产品经理（RAG / 大模型）",
+            "company": "博彦科技",
+            "salary": "25-40K",
+            "requirements": "主导过 RAG 知识库/Agent 系统；能与算法工程师协同",
+            "platform": "BOSS 直聘",
+            "url": "https://www.zhipin.com/"
+          }
+        ]
+      },
+      {
+        "title": "🅱️ AI 运营 / 广告商业化运营方向（重点关注）",
+        "rows": [
+          {
+            "position": "AIGC 商业化运营",
+            "company": "金山办公（WPS · 广州）",
+            "salary": "30-50K · 3-5 年",
+            "requirements": "3-5 年产品运营经验；有工具产品/AI 应用商业化变现经验；强数据分析；能写 PRD、跨部门推动",
+            "platform": "猎聘 · 直达 JD",
+            "url": "https://www.liepin.com/job/1964523119.shtml",
+            "jd_excerpt": "【岗位职责】1) 探索 WPS 工具产品与 AIGC 方向结合的可能，制定阶段性目标，主导项目上线；2) 通过市场调研&行业分析，结合 WPS 产品体系挖掘 AIGC 与业务结合的可落地方向；3) 项目整体管理，把控进度，跨部门协调推动产研测交付；4) 通过线上数据分析、用户行为路径、用户体验反馈，提出商业优化策略和运营提升方案。【任职要求】1) 3-5 年产品运营经验；2) 对 AIGC 等新领域有强烈好奇心和商业敏感度；3) 有系统的工具产品运营或商业化变现经验，对效率类工具/AI 类应用熟悉者优先；4) 较强的数据分析和逻辑推理能力；5) 具备 PRD 撰写、跟进开发测试能力；6) 学习能力强、抗压能力强、善于跨部门沟通推动。"
+          },
+          {
+            "position": "AI 内容运营（AIGC 营销 + 数字人 IP）",
+            "company": "叫叫（成都 · 叫叫 AI 课）",
+            "salary": "15-25K · 2 年+",
+            "requirements": "小红书/抖音/视频号 AIGC 投放素材；数字人 IP 直播运营；熟练 Midjourney/ChatGPT 等 AI 工具",
+            "platform": "猎聘 · 直达 JD",
+            "url": "https://www.liepin.com/job/1972058561.shtml",
+            "jd_excerpt": "【工作职责】1) 深入探索 AIGC 营销方式，通过 AI 生成图片/视频等创新素材，为小红书、抖音等社交媒体打造吸睛内容；2) 主导 IP 数字人在视频号及直播平台的运营策略制定与执行；3) 积极研究并应用 AI agent 及各类 AI 工具，通过优化文案撰写、智能客服等提升营销效率；4) 为「叫叫 AI 课」、「AI 大叫叫」等项目提供前瞻性营销支持，从市场调研、用户画像分析到营销策略制定；5) 组织内部培训与分享，提升团队 AI 营销和 AI 工具使用能力。【任职要求】1) 本科及以上，市场营销/计算机/AI 相关专业优先；2) 2 年以上市场营销经验，熟悉社交媒体平台运营规则，有成功营销案例者优先；3) 对 AIGC 技术深入了解，熟练掌握 Midjourney/ChatGPT 等至少一种 AI 内容生成工具；4) 对新兴技术充满热情，学习能力和创新意识强。"
+          },
+          {
+            "position": "信息流广告运营（巨量引擎方向）",
+            "company": "条条是道（巨量引擎核心代理）",
+            "salary": "按岗位定级 · 1 年+",
+            "requirements": "今日头条/抖音/西瓜视频/懂车帝/穿山甲整合营销；数据分析驱动调优；跨部门协调素材制作",
+            "platform": "智联招聘 · 直达 JD",
+            "url": "https://jobs.zhaopin.com/CC502582632J00353954908.htm",
+            "jd_excerpt": "【岗位职责】1) 针对广告主市场投放需求，负责巨量引擎整合的多元化营销产品：今日头条、抖音、西瓜视频、懂车帝、Faceu 激萌、轻颜相机、皮皮虾、穿山甲媒体投放、运营及优化；2) 根据广告投放数据进行分析，制定优化策略并调整；3) 协调客户和公司内部资源，跨部门完成广告素材制作，持续跟踪线上转化效果；4) 整合移动媒体资源，对市场情况、客户需求、竞争对手进行多维度分析。【职位要求】1) 大专及以上，1 年及以上相关经验；2) 对移动 APP 感兴趣，愿研究产品特点及受众；3) 创业心态、创新思维；4) 较强沟通能力、数据敏感度强、独立解决问题；5) 高度责任感、团队合作精神、能承受工作压力。"
+          },
+          {
+            "position": "广告运营 / 信息流广告优化师",
+            "company": "微思敦（武汉 · 微博/小红书/B站/知乎/腾讯核心代理）",
+            "salary": "10-15K · 3-5 年",
+            "requirements": "小红书等平台广告投放策略制定；信息流优化与数据分析；客户营销目标达成；维护客情关系",
+            "platform": "BOSS 直聘 · 直达 JD",
+            "url": "https://www.zhipin.com/zhaopin/1283ccf764c8434d1HF-0tu5/",
+            "jd_excerpt": "【岗位职责】1) 根据各类商家行业特点和发展趋势，制定客户在小红书平台的广告投放策略；2) 负责信息流广告的优化、投放及数据分析工作，通过分析和评估数据及时发现问题并优化；3) 负责与客户保持良好沟通，深度挖掘客户需求，达成客户营销目标。【任职要求】1) 统招大专及以上，1 年以上互联网广告运营经验；2) 熟悉广告投放流程和各类广告投放平台，有微博/B 站/知乎/小红书广告运营经验优先；3) 较强数据分析能力、市场敏感性和判断力；4) 较强责任心和抗压能力，沟通高效、积极主动。【公司背景】微思敦是微博、小红书、知乎、哔哩哔哩、腾讯等社交媒体的核心代理商。"
+          },
+          {
+            "position": "快手 2026 春招 · 大模型与商业化方向（200+ 岗）",
+            "company": "快手（含可灵 AI 业务线）",
+            "salary": "按岗位定级",
+            "requirements": "大模型岗位需求同比翻倍；可灵 AI 落地广告营销/影视/电商；急需懂商业化的运营与解决方案",
+            "platform": "搜狐报道（聚合信息）",
+            "url": "https://www.sohu.com/a/995900428_211762",
+            "jd_excerpt": "【报道摘录】快手启动 2026 届春季招聘，开放岗位涵盖技术、产品、内容、商业化、设计、职能六大方向。其中大模型相关岗位需求同比翻倍，可灵 AI 已在广告营销、影视、电商等场景规模化落地。重点招募：大模型算法（语言/多模态/RL/RAG/Agent）、AI 产品经理、AI 商业化解决方案、AIGC 内容运营、商业化产品运营等方向。可灵 AI 业务线（隶属快手商业化）持续扩招，重点关注既懂广告投放/营销又熟悉 AIGC 工具的复合型运营人才。投递入口：快手校园官网。"
+          }
+        ]
+      }
+    ],
+    "keywords": "广告商业化运营画像紧缺关键词：AIGC 创意 · 投放优化（巨量/小红书/腾讯广告）· 大客户经营 · 数字人 IP · 视频生成工具实战 · ROI 数据分析 —— 命中 3 个以上即「广告 + AI」复合型紧缺人才。"
   },
   "takeaways": [
-    "本日共抓取 18 条 AI 资讯，详见上方板块。",
-    "每条均带原始链接，点击「来源」可直达原文核实。",
-    "股市方向、人才市场板块由人工每日 17:00 后追加更新。"
+    "OpenAI 启动 IPO 流程，全球 AI 资本兑现节奏加速，微软将是最大间接受益方。",
+    "AI 编码工具（Codex / Claude Code）开始批量出企业落地案例，是 AIGC 在 B 端最快兑现的赛道。",
+    "国内大模型商业化全面提速：阿里千问做 C 端 Agent、可灵跑通 ARR、豆包推付费订阅。",
+    "广告 + AI 复合岗位是当下最稀缺画像，命中 AIGC 创意 / 投放优化 / 数字人 IP / ROI 分析 3 项以上即可议价。"
   ]
 }
