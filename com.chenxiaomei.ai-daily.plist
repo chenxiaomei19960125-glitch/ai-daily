@@ -8,7 +8,7 @@
   <key>ProgramArguments</key>
   <array>
     <string>/usr/bin/python3</string>
-    <string>/Users/chenxiaomei/CodeBuddy/20260609200900/update_ai_daily.py</string>
+    <string>/Users/chenxiaomei/CodeBuddy/ai日报/update_ai_daily.py</string>
   </array>
 
   <key>StartCalendarInterval</key>
@@ -20,13 +20,13 @@
   </dict>
 
   <key>WorkingDirectory</key>
-  <string>/Users/chenxiaomei/CodeBuddy/20260609200900</string>
+  <string>/Users/chenxiaomei/CodeBuddy/ai日报</string>
 
   <key>StandardOutPath</key>
-  <string>/Users/chenxiaomei/CodeBuddy/20260609200900/update.log</string>
+  <string>/Users/chenxiaomei/CodeBuddy/ai日报/update.log</string>
 
   <key>StandardErrorPath</key>
-  <string>/Users/chenxiaomei/CodeBuddy/20260609200900/update.log</string>
+  <string>/Users/chenxiaomei/CodeBuddy/ai日报/update.log</string>
 
   <key>EnvironmentVariables</key>
   <dict>

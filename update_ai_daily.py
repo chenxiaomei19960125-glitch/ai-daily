@@ -42,7 +42,7 @@ SOURCES = [
     {"name": "InfoQ 中国", "url": "https://www.infoq.cn/feed.xml", "section": "media"},
     # 海外官方
     {"name": "OpenAI 官方博客", "url": "https://openai.com/blog/rss.xml", "section": "global"},
-    {"name": "Anthropic News",  "url": "https://www.anthropic.com/news/rss.xml", "section": "global"},
+    {"name": "Anthropic News",  "url": "https://www.anthropic.com/rss.xml", "section": "global"},
     {"name": "Google DeepMind",  "url": "https://deepmind.google/blog/rss.xml", "section": "global"},
     # 海外媒体
     {"name": "TechCrunch · AI",  "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "section": "global"},
