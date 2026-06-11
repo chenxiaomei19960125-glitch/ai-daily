@@ -207,42 +207,90 @@ def load_previous_daily():
             continue
     return None
 
+# 招聘信号关键词：用于从当日真实新闻里识别「与招聘/扩招/创业团队相关」的条目
+HIRING_KEYWORDS = [
+    '招聘', '春招', '秋招', '校招', '扩招', '招募', '招人', 'HC', '岗位',
+    '创业', '独角兽', '团队', '落户', '入职', '团队扩', '人才',
+    'hiring', 'jobs', 'recruit', 'careers', 'we are hiring'
+]
+
+def extract_hiring_signals(sections):
+    """从当日真实新闻条目中，提取「与招聘/扩招/创业相关」的信号。
+    全部基于真实新闻，不瞎编。每条带原始链接可溯源。
+    返回一个 talent group（rows 列表），无命中则返回 None。"""
+    rows = []
+    for sec in sections:
+        for it in sec.get('items', []):
+            text = (it.get('title', '') + it.get('desc', '') + it.get('takeaway', ''))
+            if any(kw.lower() in text.lower() for kw in HIRING_KEYWORDS):
+                src = (it.get('sources') or [{}])[0]
+                rows.append({
+                    "position": it.get('title', '')[:40] + ('…' if len(it.get('title', '')) > 40 else ''),
+                    "company": src.get('name', '资讯来源'),
+                    "salary": "按岗位面议",
+                    "requirements": "信号来源（真实新闻摘要）：" + (it.get('desc', '') or it.get('takeaway', '') or '点击链接查看原文')[:120],
+                    "platform": src.get('name', '原文') + ' · 链接',
+                    "url": src.get('url', '')
+                })
+    return rows if rows else None
+
 def build_daily(today, raw):
-    # 海外英文条目自动加上「待翻译」标记
+    # 海外英文条目自动翻译为中文
     raw_global = [chineseify_item(dict(it)) for it in raw["global"]]
     raw_media  = list(raw["media"])
 
-    # 默认继承昨天的股市/人才板块（如果有），避免页面突然变空
-    prev = load_previous_daily()
-    if prev:
-        stock = dict(prev.get('stock', {}))
-        if stock.get('rows'):
-            stock['note'] = (stock.get('note', '') +
-                f"\n（注：本板块继承自 {prev.get('date','上一日')}，行情变化不大；如需调整请人工编辑。）").strip()
-        else:
-            stock = {"rows": [], "note": "今日股市板块待人工补充。"}
+    sections = [
+        {"title": "🌍 海外 AI 巨头与科技媒体", "items": raw_global},
+        {"title": "🇨🇳 国内 AI 媒体精选",       "items": raw_media},
+    ]
 
-        talent = dict(prev.get('talent', {}))
-        if not (talent.get('groups') or talent.get('rows')):
-            talent = {"rows": [], "keywords": "今日人才板块待人工补充。"}
+    # ===== 股市：默认继承上一日（不瞎编行情）=====
+    prev = load_previous_daily()
+    if prev and prev.get('stock', {}).get('rows'):
+        stock = dict(prev['stock'])
+        stock['note'] = ("以上为基于公开信息的方向性整理，仅供参考，不构成投资建议。"
+            f"\n（注：本板块沿用 {prev.get('date','上一日')} 人工整理内容，行情变化不大；如需更新请人工编辑。）")
     else:
-        stock  = {"rows": [], "note": "今日股市板块待人工补充。"}
-        talent = {"rows": [], "keywords": "今日人才板块待人工补充。"}
+        stock = {"rows": [], "note": "今日暂无股市方向数据，待人工补充。"}
+
+    # ===== 人才：A组=当日新闻真实招聘信号；B组=继承的长期岗位池 =====
+    talent_groups = []
+    signals = extract_hiring_signals(sections)
+    if signals:
+        talent_groups.append({
+            "title": "🅰️ 今日新闻中的真实招聘信号（来自当日 AI 资讯，均可点链接溯源）",
+            "rows": signals
+        })
+    # 继承上一日的长期岗位池（人工整理的 JD），并标注更新日期
+    if prev:
+        for g in prev.get('talent', {}).get('groups', []):
+            gt = g.get('title', '')
+            # 跳过上一天自动生成的「今日招聘信号」组，只继承人工长期岗位池
+            if '今日新闻中的真实招聘信号' in gt:
+                continue
+            ng = dict(g)
+            if '长期岗位池' not in gt:
+                ng['title'] = f"🅱️ 长期岗位池（人工整理，更新于 {prev.get('date','上一日')}，行情变化不大时沿用）"
+            talent_groups.append(ng)
+
+    if talent_groups:
+        kw = (prev.get('talent', {}).get('keywords', '') if prev else '') or \
+             "今日招聘信号 = 从当日新闻自动提取；长期岗位池 = 人工不定期更新。"
+        talent = {"groups": talent_groups, "keywords": kw}
+    else:
+        talent = {"rows": [], "keywords": "今日暂无招聘信号，岗位池待人工补充。"}
 
     return {
         "date": today,
-        "source_note": "本日报内容由脚本自动抓取自下方公开渠道 RSS，每条均保留原始链接可溯源。海外英文条目已用「[待翻译]」标记，建议人工补充中文标题与解读。",
-        "overview": f"自动汇总 {today} AI 圈公开 RSS 源最新资讯，共抓取 {len(raw_global)+len(raw_media)} 条。股市/人才板块默认继承上一日内容，建议人工每日 17:00 后追加最新解读。",
-        "sections": [
-            {"title": "🌍 海外 AI 巨头与科技媒体", "items": raw_global},
-            {"title": "🇨🇳 国内 AI 媒体精选",       "items": raw_media},
-        ],
+        "source_note": "本日报内容由脚本自动抓取自下方公开渠道 RSS，海外英文资讯已自动翻译为中文，每条均保留原始链接可溯源。「读懂这条」为解读，若无则显示 RSS 原文摘要。人才板块的「今日招聘信号」由当日真实新闻自动提取，绝无虚构。",
+        "overview": f"自动汇总 {today} AI 圈公开 RSS 源最新资讯，共抓取 {len(raw_global)+len(raw_media)} 条。人才板块「今日招聘信号」来自当日新闻自动提取，长期岗位池沿用人工整理；股市板块沿用上一日方向。",
+        "sections": sections,
         "stock":  stock,
         "talent": talent,
         "takeaways": [
-            f"本日共抓取 {len(raw_global)+len(raw_media)} 条 AI 资讯，详见上方板块。",
-            "每条均带原始链接，点击「来源」可直达原文核实。",
-            "股市与人才市场板块默认继承上一日，可在 data/YYYY-MM-DD.json 中人工调整。"
+            f"本日共抓取 {len(raw_global)+len(raw_media)} 条 AI 资讯，海外英文已自动翻译为中文。",
+            "每条均带原始链接，点击「来源」可直达原文核实；解读为空时显示 RSS 原文摘要。",
+            "人才板块「今日招聘信号」自当日真实新闻提取，长期岗位池沿用人工整理，均不虚构。"
         ]
     }
 
