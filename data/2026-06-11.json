@@ -1,0 +1,391 @@
+{
+  "date": "2026-06-11",
+  "source_note": "本日报内容由脚本自动抓取自下方公开渠道 RSS，每条均保留原始链接可溯源。海外英文条目已用「[待翻译]」标记，建议人工补充中文标题与解读。",
+  "overview": "自动汇总 2026-06-11 AI 圈公开 RSS 源最新资讯，共抓取 18 条。股市/人才板块默认继承上一日内容，建议人工每日 17:00 后追加最新解读。",
+  "sections": [
+    {
+      "title": "🌍 海外 AI 巨头与科技媒体",
+      "items": [
+        {
+          "title": "天体物理学家如何使用 Codex 帮助模拟黑洞",
+          "desc": "了解天体物理学家 Chi-kwan Chan 如何使用 Codex 构建黑洞模拟，帮助科学家研究极端物理并测试爱因斯坦的生成理论",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/using-codex-to-simulate-black-holes"
+            }
+          ]
+        },
+        {
+          "title": "支持欧洲确保值得信赖的人工智能生态系统的工作",
+          "desc": "OpenAI 支持欧盟关于人工智能内容透明度的实践准则，推进来源标准和工具以帮助人们理解人工智能生成的内容。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem"
+            }
+          ]
+        },
+        {
+          "title": "通过 Oracle 云承诺访问 OpenAI 模型和 Codex",
+          "desc": "通过 Oracle Cloud 访问 OpenAI 模型和 Codex，利用现有承诺构建和部署具有企业安全性和治理的 AI。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/openai-on-oracle-cloud"
+            }
+          ]
+        },
+        {
+          "title": "与中国相关的影响力行动瞄准了美国的人工智能辩论",
+          "desc": "OpenAI 的一份新报告详细介绍了与中国相关的影响力行动，利用人工智能针对美国科技辩论、数据中心叙述、关税和有关中国的虚假声明",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates"
+            }
+          ]
+        },
+        {
+          "title": "从数据到决策：伦敦证券交易所集团如何扩展可信人工智能",
+          "desc": "了解 LSEG 如何使用 OpenAI 在其全球业务中扩展可信 AI，加速洞察、缩短发布周期并为 4,000 名员工提供支持。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/lseg"
+            }
+          ]
+        },
+        {
+          "title": "Nextdoor 的工程师如何使用 Codex 进行无限制的构建",
+          "desc": "Nextdoor 的工程师如何使用 Codex 和 GPT-5.5 来调查难以重现的问题、跨平台构建并专注于产品成果。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/nextdoor"
+            }
+          ]
+        },
+        {
+          "title": "DiffusionGemma：文本生成速度提高 4 倍",
+          "desc": "（点击「来源」查看原文）",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "Google DeepMind",
+              "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/"
+            }
+          ]
+        },
+        {
+          "title": "使用 Gemini 3.5 实时翻译进行流畅、自然的语音翻译",
+          "desc": "Gemini 3.5 Live Translate 为 Google AI Studio、Google Translate 和 Google Meet 带来近乎实时、自然的语音翻译。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "Google DeepMind",
+              "url": "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 国内 AI 媒体精选",
+      "items": [
+        {
+          "title": "1290万高考生看过来！阿里出了个志愿填报Agent，免费的",
+          "desc": "前期做了40万AI考生压测",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/434558.html"
+            }
+          ]
+        },
+        {
+          "title": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3D AI Agent",
+          "desc": "Meshy发布全球首个3D AI Agent",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/434317.html"
+            }
+          ]
+        },
+        {
+          "title": "Mythos阴影里谷歌悄悄发模型，速度暴涨4倍",
+          "desc": "用扩散模型生成文字",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/434316.html"
+            }
+          ]
+        },
+        {
+          "title": "Fable 5自带反蒸馏机制！检测到就降智，误触率高到离谱",
+          "desc": "Claude刚刚发布的新模型Fable 5，很多人可能压根就用不上！",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/434326.html"
+            }
+          ]
+        },
+        {
+          "title": "AI短剧工具赛道，年度最大单笔融资来了",
+          "desc": "年度最大单笔融资来了",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/434298.html"
+            }
+          ]
+        },
+        {
+          "title": "谷歌I/O最出圈的一幕，发生在抖音？？？",
+          "desc": "看12位抖音创作者如何”翻译“AI",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/434267.html"
+            }
+          ]
+        },
+        {
+          "title": "今日头条关联智领星辰更名面包星辰",
+          "desc": "36氪获悉，天眼查App显示，近日，深圳智领星辰科技有限公司发生工商变更，企业名称变更为深圳面包星辰科技有限公司。该公司成立于2006年8月，法定代表人为周波，注册资本8.51亿人民币，经营范围包括接受金融机构委托从事信息技术和流程外包服务等，由江苏今日头条信息科技有限公司旗下深圳未来视界信息技术服务有限公司全资持股。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3848522664842246?f=rss"
+            }
+          ]
+        },
+        {
+          "title": "上期所：调整黄金、白银期货相关合约涨跌停板幅度和交易保证金比例",
+          "desc": "36氪获悉，上期所公告，经研究决定，下述合约自上市时起，涨跌停板幅度和交易保证金比例调整如下： 黄金AU2609合约的涨跌停板幅度为17%，套保持仓交易保证金比例为18%，一般持仓交易保证金比例为19%；白银AG2706合约的涨跌停板幅度为17%，套保持仓交易保证金比例为18%，一般持仓交易保证金比例为19%。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3848541260747783?f=rss"
+            }
+          ]
+        },
+        {
+          "title": "腾讯混元 AI Infra 新开源：HPC-Ops 推理核心算子全面升级",
+          "desc": "36氪获悉，为了进一步满足推理系统对动态业务负载的适应性、核心模块对复杂精度和高性能融合算子的需求，HPC-Ops 推出全新更新开源升级，包含五大关键算子。本次升级在主流推理平台上，有效缓解了Attention长尾延迟、显存搬运开销、跨卡通信等实际工程瓶颈，多项性能指标显著优于现有的开源基线。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3848528390198535?f=rss"
+            }
+          ]
+        },
+        {
+          "title": "WPS文档小程序接入微信Agent能力",
+          "desc": "36氪获悉，金山办公旗下“WPS文档”小程序正式接入微信Agent（智能体）能力，成为首批完成适配的办公应用。此次接入微信Agent的连接能力后，WPS文档小程序针对移动端高频办公场景推出了多项AI功能，包括文本转文档、群接龙转表格、一句话建表、网页收藏等。在全新交互模式下，用户将彻底告别了传统手机端新建文档、挑选模板",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3848527827080452?f=rss"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stock": {
+    "rows": [
+      {
+        "name": "算力硬件（中芯国际 0981.HK / 华虹 1347.HK / 联想 0992.HK）",
+        "direction": "⬆ 偏强",
+        "logic": "国内大模型与 AI 应用持续放量，国产算力供给紧张，订单与产能利用率持续抬升",
+        "sources": [
+          {
+            "name": "港股大模型概念股日报 · 界面新闻",
+            "url": "https://www.jiemian.com/"
+          }
+        ]
+      },
+      {
+        "name": "AI 应用层（快手 1024.HK / 腾讯 0700.HK）",
+        "direction": "⬆ 偏强",
+        "logic": "可灵 ARR 兑现、混元/元宝放量；财报已能给出可验证的 AI 收入与用户数",
+        "sources": [
+          {
+            "name": "快手 Q1 财报 · 腾讯网",
+            "url": "https://new.qq.com/"
+          }
+        ]
+      },
+      {
+        "name": "美股 AI 龙头（NVDA / MSFT / GOOGL）",
+        "direction": "⬆ 偏强",
+        "logic": "OpenAI/Anthropic IPO 临近，整体 AI 资产估值预期被抬升；微软作为 OpenAI 最大股东受益最直接",
+        "sources": [
+          {
+            "name": "DoNews · OpenAI IPO",
+            "url": "https://www.donews.com/"
+          }
+        ]
+      },
+      {
+        "name": "纯模型层（部分港股 AI 个股）",
+        "direction": "⇄ 震荡偏弱",
+        "logic": "营收兑现压力大、估值消化中，资金切换至有商业化的应用层",
+        "sources": [
+          {
+            "name": "港股大模型概念股日报",
+            "url": "https://www.jiemian.com/"
+          }
+        ]
+      },
+      {
+        "name": "机器人板块（A 股人形机器人概念）",
+        "direction": "⇄ 震荡",
+        "logic": "主题热度高但商业化路径较长，对消息面敏感、波动放大",
+        "sources": [
+          {
+            "name": "腾讯自选股 6/9 圆桌报告",
+            "url": "https://github.com/chenxiaomei19960125-glitch/roundtable-2026-06-09"
+          }
+        ]
+      },
+      {
+        "name": "AI + 营销/广告（蓝色光标 300058 等）",
+        "direction": "⬆ 偏强（弹性大）",
+        "logic": "AI 营销市场规模破 3200 亿、增速 41.7%；广告公司 AIGC 改造预期升温",
+        "sources": [
+          {
+            "name": "AI 营销报告 · 企鹅号",
+            "url": "https://page.om.qq.com/"
+          }
+        ]
+      }
+    ],
+    "note": "以上为基于公开信息的方向性整理，仅供参考，不构成投资建议。\n（注：本板块为 6/9 内容延续，行情方向变化不大；如需更新，请告诉我具体调整。）\n（注：本板块继承自 2026-06-10，行情变化不大；如需调整请人工编辑。）"
+  },
+  "talent": {
+    "groups": [
+      {
+        "title": "🅰️ AI 产品经理方向",
+        "rows": [
+          {
+            "position": "AI 平台技术产品经理",
+            "company": "字节跳动（北京海淀）",
+            "salary": "30-50K · 16薪",
+            "requirements": "3 年以上产品经验；熟悉大模型/Agent/RAG；能主导平台型产品 0-1",
+            "platform": "BOSS 直聘",
+            "url": "https://www.zhipin.com/"
+          },
+          {
+            "position": "AI 平台产品经理（抖音）",
+            "company": "字节跳动（抖音业务）",
+            "salary": "20-30K · 14-16薪",
+            "requirements": "3-5 年产品经验；负责 AIGC 工具/创作者平台；多模态优先",
+            "platform": "BOSS 直聘",
+            "url": "https://www.zhipin.com/"
+          },
+          {
+            "position": "AI 产品经理（大模型方向）",
+            "company": "美团（闪购业务）",
+            "salary": "25-40K",
+            "requirements": "5 年以上 B 端/中后台产品经验；理解大模型能力边界；能落地业务场景",
+            "platform": "BOSS 直聘",
+            "url": "https://www.zhipin.com/"
+          },
+          {
+            "position": "AIGC 营销产品经理",
+            "company": "北京某 4A 转型公司（猎聘公开 JD）",
+            "salary": "30-45K · 5 年+",
+            "requirements": "广告/营销背景；熟悉创意生成、视频生成、数字人；服务过大客户",
+            "platform": "猎聘",
+            "url": "https://www.liepin.com/"
+          },
+          {
+            "position": "AI 产品经理（RAG / 大模型）",
+            "company": "博彦科技",
+            "salary": "25-40K",
+            "requirements": "主导过 RAG 知识库/Agent 系统；能与算法工程师协同",
+            "platform": "BOSS 直聘",
+            "url": "https://www.zhipin.com/"
+          }
+        ]
+      },
+      {
+        "title": "🅱️ AI 运营 / 广告商业化运营方向（重点关注）",
+        "rows": [
+          {
+            "position": "AIGC 商业化运营",
+            "company": "金山办公（WPS · 广州）",
+            "salary": "30-50K · 3-5 年",
+            "requirements": "3-5 年产品运营经验；有工具产品/AI 应用商业化变现经验；强数据分析；能写 PRD、跨部门推动",
+            "platform": "猎聘 · 直达 JD",
+            "url": "https://www.liepin.com/job/1964523119.shtml",
+            "jd_excerpt": "【岗位职责】1) 探索 WPS 工具产品与 AIGC 方向结合的可能，制定阶段性目标，主导项目上线；2) 通过市场调研&行业分析，结合 WPS 产品体系挖掘 AIGC 与业务结合的可落地方向；3) 项目整体管理，把控进度，跨部门协调推动产研测交付；4) 通过线上数据分析、用户行为路径、用户体验反馈，提出商业优化策略和运营提升方案。【任职要求】1) 3-5 年产品运营经验；2) 对 AIGC 等新领域有强烈好奇心和商业敏感度；3) 有系统的工具产品运营或商业化变现经验，对效率类工具/AI 类应用熟悉者优先；4) 较强的数据分析和逻辑推理能力；5) 具备 PRD 撰写、跟进开发测试能力；6) 学习能力强、抗压能力强、善于跨部门沟通推动。"
+          },
+          {
+            "position": "AI 内容运营（AIGC 营销 + 数字人 IP）",
+            "company": "叫叫（成都 · 叫叫 AI 课）",
+            "salary": "15-25K · 2 年+",
+            "requirements": "小红书/抖音/视频号 AIGC 投放素材；数字人 IP 直播运营；熟练 Midjourney/ChatGPT 等 AI 工具",
+            "platform": "猎聘 · 直达 JD",
+            "url": "https://www.liepin.com/job/1972058561.shtml",
+            "jd_excerpt": "【工作职责】1) 深入探索 AIGC 营销方式，通过 AI 生成图片/视频等创新素材，为小红书、抖音等社交媒体打造吸睛内容；2) 主导 IP 数字人在视频号及直播平台的运营策略制定与执行；3) 积极研究并应用 AI agent 及各类 AI 工具，通过优化文案撰写、智能客服等提升营销效率；4) 为「叫叫 AI 课」、「AI 大叫叫」等项目提供前瞻性营销支持，从市场调研、用户画像分析到营销策略制定；5) 组织内部培训与分享，提升团队 AI 营销和 AI 工具使用能力。【任职要求】1) 本科及以上，市场营销/计算机/AI 相关专业优先；2) 2 年以上市场营销经验，熟悉社交媒体平台运营规则，有成功营销案例者优先；3) 对 AIGC 技术深入了解，熟练掌握 Midjourney/ChatGPT 等至少一种 AI 内容生成工具；4) 对新兴技术充满热情，学习能力和创新意识强。"
+          },
+          {
+            "position": "信息流广告运营（巨量引擎方向）",
+            "company": "条条是道（巨量引擎核心代理）",
+            "salary": "按岗位定级 · 1 年+",
+            "requirements": "今日头条/抖音/西瓜视频/懂车帝/穿山甲整合营销；数据分析驱动调优；跨部门协调素材制作",
+            "platform": "智联招聘 · 直达 JD",
+            "url": "https://jobs.zhaopin.com/CC502582632J00353954908.htm",
+            "jd_excerpt": "【岗位职责】1) 针对广告主市场投放需求，负责巨量引擎整合的多元化营销产品：今日头条、抖音、西瓜视频、懂车帝、Faceu 激萌、轻颜相机、皮皮虾、穿山甲媒体投放、运营及优化；2) 根据广告投放数据进行分析，制定优化策略并调整；3) 协调客户和公司内部资源，跨部门完成广告素材制作，持续跟踪线上转化效果；4) 整合移动媒体资源，对市场情况、客户需求、竞争对手进行多维度分析。【职位要求】1) 大专及以上，1 年及以上相关经验；2) 对移动 APP 感兴趣，愿研究产品特点及受众；3) 创业心态、创新思维；4) 较强沟通能力、数据敏感度强、独立解决问题；5) 高度责任感、团队合作精神、能承受工作压力。"
+          },
+          {
+            "position": "广告运营 / 信息流广告优化师",
+            "company": "微思敦（武汉 · 微博/小红书/B站/知乎/腾讯核心代理）",
+            "salary": "10-15K · 3-5 年",
+            "requirements": "小红书等平台广告投放策略制定；信息流优化与数据分析；客户营销目标达成；维护客情关系",
+            "platform": "BOSS 直聘 · 直达 JD",
+            "url": "https://www.zhipin.com/zhaopin/1283ccf764c8434d1HF-0tu5/",
+            "jd_excerpt": "【岗位职责】1) 根据各类商家行业特点和发展趋势，制定客户在小红书平台的广告投放策略；2) 负责信息流广告的优化、投放及数据分析工作，通过分析和评估数据及时发现问题并优化；3) 负责与客户保持良好沟通，深度挖掘客户需求，达成客户营销目标。【任职要求】1) 统招大专及以上，1 年以上互联网广告运营经验；2) 熟悉广告投放流程和各类广告投放平台，有微博/B 站/知乎/小红书广告运营经验优先；3) 较强数据分析能力、市场敏感性和判断力；4) 较强责任心和抗压能力，沟通高效、积极主动。【公司背景】微思敦是微博、小红书、知乎、哔哩哔哩、腾讯等社交媒体的核心代理商。"
+          },
+          {
+            "position": "快手 2026 春招 · 大模型与商业化方向（200+ 岗）",
+            "company": "快手（含可灵 AI 业务线）",
+            "salary": "按岗位定级",
+            "requirements": "大模型岗位需求同比翻倍；可灵 AI 落地广告营销/影视/电商；急需懂商业化的运营与解决方案",
+            "platform": "搜狐报道（聚合信息）",
+            "url": "https://www.sohu.com/a/995900428_211762",
+            "jd_excerpt": "【报道摘录】快手启动 2026 届春季招聘，开放岗位涵盖技术、产品、内容、商业化、设计、职能六大方向。其中大模型相关岗位需求同比翻倍，可灵 AI 已在广告营销、影视、电商等场景规模化落地。重点招募：大模型算法（语言/多模态/RL/RAG/Agent）、AI 产品经理、AI 商业化解决方案、AIGC 内容运营、商业化产品运营等方向。可灵 AI 业务线（隶属快手商业化）持续扩招，重点关注既懂广告投放/营销又熟悉 AIGC 工具的复合型运营人才。投递入口：快手校园官网。"
+          }
+        ]
+      }
+    ],
+    "keywords": "广告商业化运营画像紧缺关键词：AIGC 创意 · 投放优化（巨量/小红书/腾讯广告）· 大客户经营 · 数字人 IP · 视频生成工具实战 · ROI 数据分析 —— 命中 3 个以上即「广告 + AI」复合型紧缺人才。"
+  },
+  "takeaways": [
+    "本日共抓取 18 条 AI 资讯，详见上方板块。",
+    "每条均带原始链接，点击「来源」可直达原文核实。",
+    "股市与人才市场板块默认继承上一日，可在 data/YYYY-MM-DD.json 中人工调整。"
+  ]
+}
