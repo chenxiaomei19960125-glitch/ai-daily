@@ -1,0 +1,350 @@
+{
+  "date": "2026-06-22",
+  "source_note": "本日报内容由脚本自动抓取自下方公开渠道 RSS，海外英文资讯已自动翻译为中文，每条均保留原始链接可溯源。「读懂这条」为解读，若无则显示 RSS 原文摘要。人才板块的「今日招聘信号」由当日真实新闻自动提取，绝无虚构。",
+  "overview": "自动汇总 2026-06-22 AI 圈公开 RSS 源最新资讯，共抓取 18 条。人才板块「今日招聘信号」来自当日新闻自动提取，长期岗位池沿用人工整理；股市板块沿用上一日方向。",
+  "sections": [
+    {
+      "title": "🌍 海外 AI 巨头与科技媒体",
+      "items": [
+        {
+          "title": "三星电子为员工带来 ChatGPT 和 Codex",
+          "desc": "三星电子向全球员工部署 ChatGPT Enterprise 和 Codex，这标志着 OpenAI 最大的企业人工智能部署之一。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment"
+            }
+          ]
+        },
+        {
+          "title": "新的使用情况分析和更新的企业支出控制",
+          "desc": "OpenAI 为 ChatGPT Enterprise 引入了新的支出控制和使用分析，帮助组织充满信心地管理成本并扩展 AI。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/chatgpt-enterprise-spend-controls"
+            }
+          ]
+        },
+        {
+          "title": "提高 ChatGPT 中的健康智能",
+          "desc": "了解 GPT-5.5 Instant 如何通过更强的推理、更好的背景、更清晰的沟通和医生信息来改善 ChatGPT 的健康和保健反应",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt"
+            }
+          ]
+        },
+        {
+          "title": "使用人工智能帮助医生诊断影响儿童的罕见遗传病",
+          "desc": "研究人员使用 OpenAI 推理模型来帮助诊断罕见疾病，在之前未解决的病例中识别出了 18 种新的诊断结果。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/diagnose-rare-childhood-diseases"
+            }
+          ]
+        },
+        {
+          "title": "近乎自主的人工智能化学家改善了药物化学中具有挑战性的反应",
+          "desc": "OpenAI 和 Molecule.one 展示了一位近乎自主的 AI 化学家如何使用 GPT-5.4 改进关键的制药反应，从而推进药物化学研究。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/ai-chemist-improves-reaction"
+            }
+          ]
+        },
+        {
+          "title": "LifeSciBench 简介",
+          "desc": "隆重推出 LifeSciBench，这是一个由专家撰写、专家评审的基准，用于评估人工智能系统如何处理现实世界的生命科学研究任务和决策",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/introducing-life-sci-bench"
+            }
+          ]
+        },
+        {
+          "title": "当特朗普政府打压 Anthropic 时，谁受益？",
+          "desc": "在新一期的 Equity 节目中，我们讨论了究竟是什么促使政府针对 Anthropic 采取最新行动，以及这对人工智能生态系统可能意味着什么",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "TechCrunch · AI",
+              "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/"
+            }
+          ]
+        },
+        {
+          "title": "超越 Siri：以下是 iOS 27 中 iPhone 的实用人工智能功能",
+          "desc": "Siri 的人工智能改革可能已经成为 WWDC 的头条新闻，但苹果一些最有用的人工智能功能正在 iOS 27 的其他地方出现。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "TechCrunch · AI",
+              "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 国内 AI 媒体精选",
+      "items": [
+        {
+          "title": "阿里发布视频生成模型HappyHorse 1.1：五大维度全面升级",
+          "desc": "（点击「来源」查看原文）",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/437317.html"
+            }
+          ]
+        },
+        {
+          "title": "AI硬件席卷618，钉钉A1包揽天猫、抖音、京东销量冠军",
+          "desc": "同时拿下天猫、抖音、京东三大平台 AI 录音设备销量第一",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/437308.html"
+            }
+          ]
+        },
+        {
+          "title": "DeepSeek缺Agent人才缺疯了！负责人各种贴广告",
+          "desc": "DeepSeek正在全力押注",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/437249.html"
+            }
+          ]
+        },
+        {
+          "title": "入选ECCV 2026！清华开源空间模型打败Gemini：真正的空间智能是在世界变化中持续学习",
+          "desc": "120分钟长视频一边看一边记",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/437235.html"
+            }
+          ]
+        },
+        {
+          "title": "具身赛道现状素描：脑子灵，模型好，不是百亿，就是独角",
+          "desc": "2026年还没过半，具身智能的融资就快要超过去年全年了，超过一半的钱都流入了机器人的“大脑”。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/437198.html"
+            }
+          ]
+        },
+        {
+          "title": "2026年，1800个DeepSeek跟我一起守护艾泽拉斯",
+          "desc": "一个月只要340块",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/06/437141.html"
+            }
+          ]
+        },
+        {
+          "title": "中望软件：近日收到政府补助款项共计918.5万元",
+          "desc": "36氪获悉，中望软件公告，公司于近日收到政府补助款项共计918.5万元，为与收益相关的政府补助，占公司最近一个会计年度经审计净利润的44.27%。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3864113130607616?f=rss"
+            }
+          ]
+        },
+        {
+          "title": "浙江国存盘活股权投资基金登记成立，出资额60亿",
+          "desc": "36氪获悉，天眼查App显示，近日，浙江国存盘活股权投资基金合伙企业（有限合伙）成立，执行事务合伙人为徐思行，出资额60亿人民币，经营范围为以私募基金从事股权投资、投资管理、资产管理等活动。合伙人信息显示，该基金由中国长城资产管理股份有限公司、浙江富浙资产管理有限公司、浙江富浙资产股权投资有限公司共同出资。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3864108371399682?f=rss"
+            }
+          ]
+        },
+        {
+          "title": "通威股份：拟以50.6亿元对通威太阳能科技有限公司进行增资",
+          "desc": "36氪获悉，通威股份公告，公司拟以50.6亿元对通威太阳能科技有限公司进行增资，新增金额计入通威太阳能科技有限公司资本公积。公司本次对全资子公司通威太阳能科技有限公司增资，有利于优化通威太阳能科技有限公司资本结构，促进通威太阳能科技有限公司业务发展。",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3864105917781255?f=rss"
+            }
+          ]
+        },
+        {
+          "title": "宜宾市高新投资集团增资至36.7亿，增幅约17%",
+          "desc": "36氪获悉，天眼查App显示，近日，宜宾市高新投资集团有限公司发生工商变更，注册资本由约31.2亿人民币增至约36.7亿人民币，增幅约17%。该公司成立于2022年11月，法定代表人为张恒，经营范围包括自有资金投资的资产管理服务、融资咨询服务、园区管理服务等。股东信息显示，该公司由宜宾市政府国有资产监督管理委员会、宜宾",
+          "takeaway": "",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3864101421405190?f=rss"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stock": {
+    "rows": [
+      {
+        "name": "算力硬件（中芯国际 0981.HK / 华虹 1347.HK / 联想 0992.HK）",
+        "direction": "⬆ 偏强",
+        "logic": "国内大模型与 AI 应用持续放量，国产算力供给紧张，订单与产能利用率持续抬升",
+        "sources": [
+          {
+            "name": "港股大模型概念股日报 · 界面新闻",
+            "url": "https://www.jiemian.com/"
+          }
+        ]
+      },
+      {
+        "name": "AI 应用层（快手 1024.HK / 腾讯 0700.HK）",
+        "direction": "⬆ 偏强",
+        "logic": "可灵 ARR 兑现、混元/元宝放量；财报已能给出可验证的 AI 收入与用户数",
+        "sources": [
+          {
+            "name": "快手 Q1 财报 · 腾讯网",
+            "url": "https://new.qq.com/"
+          }
+        ]
+      },
+      {
+        "name": "美股 AI 龙头（NVDA / MSFT / GOOGL）",
+        "direction": "⬆ 偏强",
+        "logic": "OpenAI/Anthropic IPO 临近，整体 AI 资产估值预期被抬升；微软作为 OpenAI 最大股东受益最直接",
+        "sources": [
+          {
+            "name": "DoNews · OpenAI IPO",
+            "url": "https://www.donews.com/"
+          }
+        ]
+      },
+      {
+        "name": "纯模型层（部分港股 AI 个股）",
+        "direction": "⇄ 震荡偏弱",
+        "logic": "营收兑现压力大、估值消化中，资金切换至有商业化的应用层",
+        "sources": [
+          {
+            "name": "港股大模型概念股日报",
+            "url": "https://www.jiemian.com/"
+          }
+        ]
+      },
+      {
+        "name": "机器人板块（A 股人形机器人概念）",
+        "direction": "⇄ 震荡",
+        "logic": "主题热度高但商业化路径较长，对消息面敏感、波动放大",
+        "sources": [
+          {
+            "name": "腾讯自选股 6/9 圆桌报告",
+            "url": "https://github.com/chenxiaomei19960125-glitch/roundtable-2026-06-09"
+          }
+        ]
+      },
+      {
+        "name": "AI + 营销/广告（蓝色光标 300058 等）",
+        "direction": "⬆ 偏强（弹性大）",
+        "logic": "AI 营销市场规模破 3200 亿、增速 41.7%；广告公司 AIGC 改造预期升温",
+        "sources": [
+          {
+            "name": "AI 营销报告 · 企鹅号",
+            "url": "https://page.om.qq.com/"
+          }
+        ]
+      }
+    ],
+    "note": "以上为基于公开信息的方向性整理，仅供参考，不构成投资建议。\n（注：本板块沿用 2026-06-21 人工整理内容，行情变化不大；如需更新请人工编辑。）"
+  },
+  "talent": {
+    "groups": [
+      {
+        "title": "🅰️ 今日新闻中的真实招聘信号（来自当日 AI 资讯，均可点链接溯源）",
+        "rows": [
+          {
+            "position": "DeepSeek缺Agent人才缺疯了！负责人各种贴广告",
+            "company": "量子位",
+            "salary": "按岗位面议",
+            "requirements": "信号来源（真实新闻摘要）：DeepSeek正在全力押注",
+            "platform": "量子位 · 链接",
+            "url": "https://www.qbitai.com/2026/06/437249.html"
+          }
+        ]
+      },
+      {
+        "title": "🅱️ 长期岗位池（人工整理真实 JD，更新于 2026-06-09，行情变化不大时沿用）",
+        "rows": [
+          {
+            "position": "AIGC 商业化运营",
+            "company": "金山办公（WPS · 广州）",
+            "salary": "30-50K · 3-5 年",
+            "requirements": "3-5 年产品运营经验；有工具产品/AI 应用商业化变现经验；强数据分析；能写 PRD、跨部门推动",
+            "platform": "猎聘 · 直达 JD",
+            "url": "https://www.liepin.com/job/1964523119.shtml",
+            "jd_excerpt": "【岗位职责】1) 探索 WPS 工具产品与 AIGC 方向结合的可能，制定阶段性目标，主导项目上线；2) 通过市场调研&行业分析，结合 WPS 产品体系挖掘 AIGC 与业务结合的可落地方向；3) 项目整体管理，把控进度，跨部门协调推动产研测交付；4) 通过线上数据分析、用户行为路径、用户体验反馈，提出商业优化策略和运营提升方案。【任职要求】1) 3-5 年产品运营经验；2) 对 AIGC 等新领域有强烈好奇心和商业敏感度；3) 有系统的工具产品运营或商业化变现经验，对效率类工具/AI 类应用熟悉者优先；4) 较强的数据分析和逻辑推理能力；5) 具备 PRD 撰写、跟进开发测试能力；6) 学习能力强、抗压能力强、善于跨部门沟通推动。"
+          },
+          {
+            "position": "AI 内容运营（AIGC 营销 + 数字人 IP）",
+            "company": "叫叫（成都 · 叫叫 AI 课）",
+            "salary": "15-25K · 2 年+",
+            "requirements": "小红书/抖音/视频号 AIGC 投放素材；数字人 IP 直播运营；熟练 Midjourney/ChatGPT 等 AI 工具",
+            "platform": "猎聘 · 直达 JD",
+            "url": "https://www.liepin.com/job/1972058561.shtml",
+            "jd_excerpt": "【工作职责】1) 深入探索 AIGC 营销方式，通过 AI 生成图片/视频等创新素材，为小红书、抖音等社交媒体打造吸睛内容；2) 主导 IP 数字人在视频号及直播平台的运营策略制定与执行；3) 积极研究并应用 AI agent 及各类 AI 工具，通过优化文案撰写、智能客服等提升营销效率；4) 为「叫叫 AI 课」、「AI 大叫叫」等项目提供前瞻性营销支持，从市场调研、用户画像分析到营销策略制定；5) 组织内部培训与分享，提升团队 AI 营销和 AI 工具使用能力。【任职要求】1) 本科及以上，市场营销/计算机/AI 相关专业优先；2) 2 年以上市场营销经验，熟悉社交媒体平台运营规则，有成功营销案例者优先；3) 对 AIGC 技术深入了解，熟练掌握 Midjourney/ChatGPT 等至少一种 AI 内容生成工具；4) 对新兴技术充满热情，学习能力和创新意识强。"
+          },
+          {
+            "position": "广告运营 / 信息流广告优化师",
+            "company": "微思敦（武汉 · 微博/小红书/B站/知乎/腾讯核心代理）",
+            "salary": "10-15K · 3-5 年",
+            "requirements": "小红书等平台广告投放策略制定；信息流优化与数据分析；客户营销目标达成；维护客情关系",
+            "platform": "BOSS 直聘 · 直达 JD",
+            "url": "https://www.zhipin.com/zhaopin/1283ccf764c8434d1HF-0tu5/",
+            "jd_excerpt": "【岗位职责】1) 根据各类商家行业特点和发展趋势，制定客户在小红书平台的广告投放策略；2) 负责信息流广告的优化、投放及数据分析工作，通过分析和评估数据及时发现问题并优化；3) 负责与客户保持良好沟通，深度挖掘客户需求，达成客户营销目标。【任职要求】1) 统招大专及以上，1 年以上互联网广告运营经验；2) 熟悉广告投放流程和各类广告投放平台，有微博/B 站/知乎/小红书广告运营经验优先；3) 较强数据分析能力、市场敏感性和判断力；4) 较强责任心和抗压能力，沟通高效、积极主动。【公司背景】微思敦是微博、小红书、知乎、哔哩哔哩、腾讯等社交媒体的核心代理商。"
+          },
+          {
+            "position": "快手 2026 春招 · 大模型与商业化方向（200+ 岗）",
+            "company": "快手（含可灵 AI 业务线）",
+            "salary": "按岗位定级",
+            "requirements": "大模型岗位需求同比翻倍；可灵 AI 落地广告营销/影视/电商；急需懂商业化的运营与解决方案",
+            "platform": "搜狐报道（聚合信息）",
+            "url": "https://www.sohu.com/a/995900428_211762",
+            "jd_excerpt": "【报道摘录】快手启动 2026 届春季招聘，开放岗位涵盖技术、产品、内容、商业化、设计、职能六大方向。其中大模型相关岗位需求同比翻倍，可灵 AI 已在广告营销、影视、电商等场景规模化落地。重点招募：大模型算法（语言/多模态/RL/RAG/Agent）、AI 产品经理、AI 商业化解决方案、AIGC 内容运营、商业化产品运营等方向。可灵 AI 业务线（隶属快手商业化）持续扩招，重点关注既懂广告投放/营销又熟悉 AIGC 工具的复合型运营人才。投递入口：快手校园官网。"
+          }
+        ]
+      }
+    ],
+    "keywords": "今日招聘信号：当日新闻自动提取，今日无明确信号故留空；长期岗位池：人工整理真实 JD（WPS/叫叫/微思敦/快手等），均可点链接溯源。绝不虚构岗位/公司/薪资。"
+  },
+  "takeaways": [
+    "本日共抓取 18 条 AI 资讯，海外英文已自动翻译为中文。",
+    "每条均带原始链接，点击「来源」可直达原文核实；解读为空时显示 RSS 原文摘要。",
+    "人才板块「今日招聘信号」自当日真实新闻提取，长期岗位池沿用人工整理，均不虚构。"
+  ]
+}
