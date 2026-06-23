@@ -10,7 +10,7 @@ AI 早报每日自动更新脚本
   5. git add / commit / push 到 GitHub Pages
 
 设计原则：
-- 不调 LLM、不二次加工内容 → 杜绝 AI 幻觉
+- 不调 LLM → 杜绝 AI 幻觉；「大白话解读」只对真实标题/摘要做结构化重述，不引入新事实
 - 每条都保留原标题 + 真实链接 + 来源媒体
 - 失败时退化保留昨日数据，不破坏页面
 """
@@ -190,6 +190,84 @@ def chineseify_item(it):
             it['desc'] = '[英文原文] ' + desc
     return it
 
+# ============== 大白话解读（基于真实标题+摘要的结构化提炼，不引入新事实）==============
+# 规则：识别新闻类型 → 套「是什么 + 为什么重要 + 影响谁」框架。
+# 所有判断只用已有的 title/desc 文本，绝不编造数字/公司/事件。
+_TAKEAWAY_RULES = [
+    # （顺序即优先级：招聘/融资等"硬信号"优先于发布/Agent等泛类型）
+    # (关键词列表, 类型, 一句话大白话影响)
+    (["招聘", "扩招", "招人", "缺人", "缺.*?人才", "hiring", "招贤", "校招", "春招", "贴广告"], "招聘",
+     "说白了就是这家在缺人、在扩招，找工作的可以盯一下。"),
+    (["融资", "投资", "估值", "亿美元", "亿元", "fund", "raise", "valuation", "轮融资"], "融资",
+     "有人砸钱进来了，这条赛道接下来会火、大概率也在招人。"),
+    (["收购", "并购", "acquire", "merger", "买下"], "收购",
+     "大公司花钱把别人买了，行业在洗牌，相关团队的人要留意去留。"),
+    (["政策", "监管", "立法", "法案", "合规", "regulation", "policy", "ban", "禁令"], "政策",
+     "规则变了，做 AI 相关的都得跟着调整，别踩红线。"),
+    (["开源", "open source", "开放权重", "权重开放", "免费开放"], "开源",
+     "好东西免费放出来了，自己想折腾 AI 的可以直接拿去用。"),
+    (["部署", "落地", "接入", "deploy", "rollout", "上线企业", "enterprise"], "落地",
+     "AI 真的用到实际业务里了，想把 AI 搬进自己工作的可以参考。"),
+    (["成本", "降价", "便宜", "省钱", "支出", "定价", "price", "cost", "spend"], "成本",
+     "用 AI 的花费有变化，预算紧的个人和小团队要算一下账。"),
+    (["医疗", "健康", "诊断", "疾病", "医生", "health", "medical", "诊治"], "医疗AI",
+     "AI 干起了看病这种专业活，关注 AI 落地行业的值得看看。"),
+    (["合作", "联手", "携手", "partner", "合资", "战略合作"], "合作",
+     "两家联手干事，可能很快有新产品出来，留意能不能用上。"),
+    (["智能体", "agent", "agentic"], "Agent",
+     "AI 不只会聊天、开始能自己干活了，做运营/产品的可以早点学着用。"),
+    (["视频", "图像", "生成", "绘画", "video", "image", "多模态", "3D"], "生成式",
+     "做图做视频又有新工具，搞内容、营销的能省不少事。"),
+    (["发布", "推出", "上线", "release", "launch", "亮相", "问世", "升级", "更新"], "发布",
+     "又出新工具/新模型了，看看能不能用进自己的活儿里。"),
+    (["开发者", "API", "工具", "框架", "sdk", "插件", "developer"], "工具",
+     "给开发者的新工具，做东西更省事，技术/产品同学可以瞄一眼。"),
+]
+
+def generate_takeaway(title, desc):
+    """基于真实标题+摘要生成一句话大白话解读：说清这条是啥 + 跟你有啥关系。
+    只对已有文本做结构化重述，绝不引入新事实/数字/公司名。"""
+    t = (title or '').strip()
+    d = (desc or '').strip()
+    if not t:
+        return ""
+    # 去掉摘要里的占位/前缀提示
+    for junk in ("（点击「来源」查看原文）", "[英文原文] ", "[待翻译] "):
+        d = d.replace(junk, "")
+    d = d.strip()
+    hay = (t + " " + d).lower()
+
+    sense, kind = None, None
+    for kws, k, s in _TAKEAWAY_RULES:
+        if any(re.search(kw.lower(), hay) for kw in kws):
+            sense, kind = s, k
+            break
+    if sense is None:
+        # 兜底：仍不编造内容
+        sense = "AI 圈又有新动静，想跟上节奏的可以瞄一眼。"
+
+    # 「是什么」直接用摘要首句（真实可溯源）；摘要为空则用标题
+    if d:
+        first = re.split(r'[。！？!?\n]', d)[0].strip()
+        what = first if len(first) >= 8 else d[:60]
+    else:
+        what = t
+    what = what.rstrip('。.')[:80]
+
+    return f"{what}——{sense}"
+
+def enrich_takeaways(sections):
+    """给 sections 里每条没有 takeaway 的新闻补上大白话解读。"""
+    n = 0
+    for sec in sections:
+        for it in sec.get('items', []):
+            if not (it.get('takeaway') or '').strip():
+                tk = generate_takeaway(it.get('title', ''), it.get('desc', ''))
+                if tk:
+                    it['takeaway'] = tk
+                    n += 1
+    return n
+
 def load_previous_daily():
     """找到 data/ 下日期排序最新（且非今天）的一份日报，返回 dict 或 None。
     用于继承 stock / talent 板块，避免今天页面突然变空。"""
@@ -243,6 +321,10 @@ def build_daily(today, raw):
         {"title": "🌍 海外 AI 巨头与科技媒体", "items": raw_global},
         {"title": "🇨🇳 国内 AI 媒体精选",       "items": raw_media},
     ]
+
+    # ===== 每条新闻自动生成「大白话解读」（基于真实摘要提炼，不瞎编）=====
+    cnt_tk = enrich_takeaways(sections)
+    log(f"已为 {cnt_tk} 条新闻自动生成大白话解读")
 
     # ===== 股市：默认继承上一日（不瞎编行情）=====
     prev = load_previous_daily()

@@ -120,6 +120,11 @@ function escapeHtml(s) {
   return String(s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
+// 一句话大白话解读，直接展示
+function formatTakeaway(tk) {
+  return escapeHtml(tk);
+}
+
 function renderSources(sources) {
   if (!sources || !sources.length) return '';
   return '<div class="source">📎 来源：' + sources.map(s =>
@@ -135,7 +140,7 @@ function renderNewsBlock(title, items) {
       <div class="news">
         <h3>${escapeHtml(n.title)}</h3>
         <div class="desc">${escapeHtml(n.desc)}</div>
-        ${n.takeaway ? `<div class="takeaway"><b>💡 读懂这条：</b>${escapeHtml(n.takeaway)}</div>` : ''}
+        ${n.takeaway ? `<div class="takeaway"><b>💡 读懂这条</b><br>${formatTakeaway(n.takeaway)}</div>` : ''}
         ${renderSources(n.sources)}
       </div>
     `).join('')}
