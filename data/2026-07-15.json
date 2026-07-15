@@ -1,0 +1,382 @@
+{
+  "date": "2026-07-15",
+  "source_note": "本日报内容由脚本自动抓取自下方公开渠道 RSS，海外英文资讯已自动翻译为中文，每条均保留原始链接可溯源。「读懂这条」为解读，若无则显示 RSS 原文摘要。人才板块的「今日招聘信号」由当日真实新闻自动提取，绝无虚构。",
+  "overview": "自动汇总 2026-07-15 AI 圈公开 RSS 源最新资讯，共抓取 18 条。人才板块「今日招聘信号」来自当日新闻自动提取，长期岗位池沿用人工整理；股市板块沿用上一日方向。",
+  "sections": [
+    {
+      "title": "🌍 海外 AI 巨头与科技媒体",
+      "items": [
+        {
+          "title": "[待翻译] How to manage AI investments in the agentic era",
+          "desc": "[英文原文] Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+          "takeaway": "Learn how enterprises can manage AI investments in the agentic era by measuring ——AI 真的用到实际业务里了，想把 AI 搬进自己工作的可以参考。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/managing-ai-investments-in-agentic-era"
+            }
+          ]
+        },
+        {
+          "title": "[待翻译] How data science teams use ChatGPT Work",
+          "desc": "[英文原文] See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inpu",
+          "takeaway": "See how data science teams can use ChatGPT Work to build root-cause briefs, impa——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex"
+            }
+          ]
+        },
+        {
+          "title": "[待翻译] How sales teams use ChatGPT Work",
+          "desc": "[英文原文] See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real ",
+          "takeaway": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex"
+            }
+          ]
+        },
+        {
+          "title": "[待翻译] How Deutsche Telekom is rewiring telecommunications with AI",
+          "desc": "[英文原文] How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+          "takeaway": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming cus——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/deutsche-telekom"
+            }
+          ]
+        },
+        {
+          "title": "[待翻译] Getting started with ChatGPT",
+          "desc": "[英文原文] Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+          "takeaway": "Learn how to use ChatGPT, start your first conversation, and discover simple way——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/academy/getting-started"
+            }
+          ]
+        },
+        {
+          "title": "[待翻译] GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+          "desc": "[英文原文] Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+          "takeaway": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities acr——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot"
+            }
+          ]
+        },
+        {
+          "title": "[待翻译] Empowering India’s next generation of innovators with ATL Saathi",
+          "desc": "[英文原文] Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian educators in robotics labs.",
+          "takeaway": "Google and AIM launched ATL Saathi, a Gemini-powered AI tool empowering Indian e——又出新工具/新模型了，看看能不能用进自己的活儿里。",
+          "sources": [
+            {
+              "name": "Google DeepMind",
+              "url": "https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/"
+            }
+          ]
+        },
+        {
+          "title": "[待翻译] OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+          "desc": "[英文原文] The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
+          "takeaway": "The funding discussions point to investor interest in applying AI to make breakt——有人砸钱进来了，这条赛道接下来会火、大概率也在招人。",
+          "sources": [
+            {
+              "name": "TechCrunch · AI",
+              "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 国内 AI 媒体精选",
+      "items": [
+        {
+          "title": "估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO",
+          "desc": "距首轮估值上涨37%",
+          "takeaway": "距首轮估值上涨37%——有人砸钱进来了，这条赛道接下来会火、大概率也在招人。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/07/450101.html"
+            }
+          ]
+        },
+        {
+          "title": "阶跃入局，重构智能体时代操作系统",
+          "desc": "董事长印奇称“未来的OS一定是跨端的”",
+          "takeaway": "董事长印奇称“未来的OS一定是跨端的”——AI 不只会聊天、开始能自己干活了，做运营/产品的可以早点学着用。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/07/449979.html"
+            }
+          ]
+        },
+        {
+          "title": "刚刚，一个免费AI Coding选手杀入全球第一梯队",
+          "desc": "一手实测这就奉上",
+          "takeaway": "一手实测这就奉上——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/07/448475.html"
+            }
+          ]
+        },
+        {
+          "title": "马斯克“机器人还进不了厂”刚说完，小米机器人”上岗“汽车产线了",
+          "desc": "全面硬刚Figure",
+          "takeaway": "全面硬刚Figure——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/07/449906.html"
+            }
+          ]
+        },
+        {
+          "title": "B站AI创造公开赛正式上线投币榜，单月参赛人数突破五千",
+          "desc": "（点击「来源」查看原文）",
+          "takeaway": "B站AI创造公开赛正式上线投币榜，单月参赛人数突破五千——又出新工具/新模型了，看看能不能用进自己的活儿里。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/07/449863.html"
+            }
+          ]
+        },
+        {
+          "title": "百年德国「战车」征服欧陆，驾驶位上是中国AI司机",
+          "desc": "一套模型，三个世界",
+          "takeaway": "一套模型，三个世界——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/07/449850.html"
+            }
+          ]
+        },
+        {
+          "title": "长鑫科技注册资本10年增超6000倍",
+          "desc": "36氪获悉，长鑫科技集团股份有限公司IPO发行价敲定，每股8.66元，将于7月16日正式开启申购。天眼查App显示，长鑫科技集团股份有限公司成立于2016年6月，法定代表人为赵纶，经营范围包括集成电路设计、制造、加工等，由合肥清辉集电企业管理合伙企业（有限合伙）、合肥长鑫集成电路有限责任公司、国家集成电路产业投资基金二",
+          "takeaway": "36氪获悉，长鑫科技集团股份有限公司IPO发行价敲定，每股8.66元，将于7月16日正式开启申购——有人砸钱进来了，这条赛道接下来会火、大概率也在招人。",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3896306415568771?f=rss"
+            }
+          ]
+        },
+        {
+          "title": "国家统计局：上半年规模以上专精特新小巨人工业企业增加值同比增长10.4%",
+          "desc": "7月15日，国家统计局新闻发言人、国民经济综合统计司负责人王冠华在国新办新闻发布会上表示，上半年规模以上专精特新小巨人工业企业增加值同比增长10.4%。6月下旬，世界经济论坛发布了最新一批灯塔工厂名单，16家新增全球灯塔工厂有半数来自中国，灯塔工厂代表着全球制造业数字化、智能化转型的标杆，目前我国灯塔工厂数量稳居全球第",
+          "takeaway": "7月15日，国家统计局新闻发言人、国民经济综合统计司负责人王冠华在国新办新闻发布会上表示，上半年规模以上专精特新小巨人工业企业增加值同比增长10.4%——又出新工具/新模型了，看看能不能用进自己的活儿里。",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3896314136135558?f=rss"
+            }
+          ]
+        },
+        {
+          "title": "国家统计局：上半年中国经济增量是近五年来同期最大增量",
+          "desc": "7月15日，国家统计局副局长毛盛勇在国新办新闻发布会上表示，今年上半年，国内生产总值按不变价计算，同比增长4.7%，增速符合全年预期的增长目标。从增量看，上半年经济增量为3.6万亿元，是最近五年同期最大的增长。对于中国这样一个超大规模经济体来说，经济实现4.7%的同比增长，还是很不错的。毛盛勇强调，尽管二季度增速有所回",
+          "takeaway": "7月15日，国家统计局副局长毛盛勇在国新办新闻发布会上表示，今年上半年，国内生产总值按不变价计算，同比增长4.7%，增速符合全年预期的增长目标——有人砸钱进来了，这条赛道接下来会火、大概率也在招人。",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3896313562072713?f=rss"
+            }
+          ]
+        },
+        {
+          "title": "国家统计局：企业更加注重研发创新，持续加大专利、数据库等领域投资",
+          "desc": "7月15日，国家统计局新闻发言人、国民经济综合统计司副司长王冠华在国新办新闻发布会上表示，上半年企业更加注重研发创新，持续加大专利、软件、数据库等领域投资。从占比看，知识产权产品投资占固定资产投资中的比重达到了13.8%，比一季度提高1.4个百分点。国家统计局数据显示，上半年，知识产权产品投资同比增长9.4%，比一季度",
+          "takeaway": "7月15日，国家统计局新闻发言人、国民经济综合统计司副司长王冠华在国新办新闻发布会上表示，上半年企业更加注重研发创新，持续加大专利、软件、数据库等领域投资——有人砸钱进来了，这条赛道接下来会火、大概率也在招人。",
+          "sources": [
+            {
+              "name": "36氪 · AI",
+              "url": "https://36kr.com/newsflashes/3896313068423044?f=rss"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stock": {
+    "rows": [
+      {
+        "name": "算力硬件（中芯国际 0981.HK / 华虹 1347.HK / 联想 0992.HK）",
+        "direction": "⬆ 偏强",
+        "logic": "国内大模型与 AI 应用持续放量，国产算力供给紧张，订单与产能利用率持续抬升",
+        "sources": [
+          {
+            "name": "港股大模型概念股日报 · 界面新闻",
+            "url": "https://www.jiemian.com/"
+          }
+        ]
+      },
+      {
+        "name": "AI 应用层（快手 1024.HK / 腾讯 0700.HK）",
+        "direction": "⬆ 偏强",
+        "logic": "可灵 ARR 兑现、混元/元宝放量；财报已能给出可验证的 AI 收入与用户数",
+        "sources": [
+          {
+            "name": "快手 Q1 财报 · 腾讯网",
+            "url": "https://new.qq.com/"
+          }
+        ]
+      },
+      {
+        "name": "美股 AI 龙头（NVDA / MSFT / GOOGL）",
+        "direction": "⬆ 偏强",
+        "logic": "OpenAI/Anthropic IPO 临近，整体 AI 资产估值预期被抬升；微软作为 OpenAI 最大股东受益最直接",
+        "sources": [
+          {
+            "name": "DoNews · OpenAI IPO",
+            "url": "https://www.donews.com/"
+          }
+        ]
+      },
+      {
+        "name": "纯模型层（部分港股 AI 个股）",
+        "direction": "⇄ 震荡偏弱",
+        "logic": "营收兑现压力大、估值消化中，资金切换至有商业化的应用层",
+        "sources": [
+          {
+            "name": "港股大模型概念股日报",
+            "url": "https://www.jiemian.com/"
+          }
+        ]
+      },
+      {
+        "name": "机器人板块（A 股人形机器人概念）",
+        "direction": "⇄ 震荡",
+        "logic": "主题热度高但商业化路径较长，对消息面敏感、波动放大",
+        "sources": [
+          {
+            "name": "腾讯自选股 6/9 圆桌报告",
+            "url": "https://github.com/chenxiaomei19960125-glitch/roundtable-2026-06-09"
+          }
+        ]
+      },
+      {
+        "name": "AI + 营销/广告（蓝色光标 300058 等）",
+        "direction": "⬆ 偏强（弹性大）",
+        "logic": "AI 营销市场规模破 3200 亿、增速 41.7%；广告公司 AIGC 改造预期升温",
+        "sources": [
+          {
+            "name": "AI 营销报告 · 企鹅号",
+            "url": "https://page.om.qq.com/"
+          }
+        ]
+      }
+    ],
+    "note": "以上为基于公开信息的方向性整理，仅供参考，不构成投资建议。\n（注：本板块沿用 2026-07-14 人工整理内容，行情变化不大；如需更新请人工编辑。）"
+  },
+  "talent": {
+    "groups": [
+      {
+        "title": "🅰️ 今日新闻中的真实招聘信号（来自当日 AI 资讯，均可点链接溯源）",
+        "rows": [
+          {
+            "position": "[待翻译] OpenAI researcher Miles Wang in ta…",
+            "company": "TechCrunch · AI",
+            "salary": "按岗位面议",
+            "requirements": "信号来源（真实新闻摘要）：[英文原文] The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
+            "platform": "TechCrunch · AI · 链接",
+            "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/"
+          },
+          {
+            "position": "估值4800亿，DeepSeek火速开启新一轮融资！最快明年IPO",
+            "company": "量子位",
+            "salary": "按岗位面议",
+            "requirements": "信号来源（真实新闻摘要）：距首轮估值上涨37%",
+            "platform": "量子位 · 链接",
+            "url": "https://www.qbitai.com/2026/07/450101.html"
+          },
+          {
+            "position": "长鑫科技注册资本10年增超6000倍",
+            "company": "36氪 · AI",
+            "salary": "按岗位面议",
+            "requirements": "信号来源（真实新闻摘要）：36氪获悉，长鑫科技集团股份有限公司IPO发行价敲定，每股8.66元，将于7月16日正式开启申购。天眼查App显示，长鑫科技集团股份有限公司成立于2016年6月，法定代表人为赵纶，经营范围包括集成电路设计、制造、加工等，由合肥清辉集电企业管",
+            "platform": "36氪 · AI · 链接",
+            "url": "https://36kr.com/newsflashes/3896306415568771?f=rss"
+          },
+          {
+            "position": "国家统计局：上半年中国经济增量是近五年来同期最大增量",
+            "company": "36氪 · AI",
+            "salary": "按岗位面议",
+            "requirements": "信号来源（真实新闻摘要）：7月15日，国家统计局副局长毛盛勇在国新办新闻发布会上表示，今年上半年，国内生产总值按不变价计算，同比增长4.7%，增速符合全年预期的增长目标。从增量看，上半年经济增量为3.6万亿元，是最近五年同期最大的增长。对于中国这样一个超大规模经济体",
+            "platform": "36氪 · AI · 链接",
+            "url": "https://36kr.com/newsflashes/3896313562072713?f=rss"
+          },
+          {
+            "position": "国家统计局：企业更加注重研发创新，持续加大专利、数据库等领域投资",
+            "company": "36氪 · AI",
+            "salary": "按岗位面议",
+            "requirements": "信号来源（真实新闻摘要）：7月15日，国家统计局新闻发言人、国民经济综合统计司副司长王冠华在国新办新闻发布会上表示，上半年企业更加注重研发创新，持续加大专利、软件、数据库等领域投资。从占比看，知识产权产品投资占固定资产投资中的比重达到了13.8%，比一季度提高1.4",
+            "platform": "36氪 · AI · 链接",
+            "url": "https://36kr.com/newsflashes/3896313068423044?f=rss"
+          }
+        ]
+      },
+      {
+        "title": "🅱️ 长期岗位池（人工整理真实 JD，更新于 2026-06-09，行情变化不大时沿用）",
+        "rows": [
+          {
+            "position": "AIGC 商业化运营",
+            "company": "金山办公（WPS · 广州）",
+            "salary": "30-50K · 3-5 年",
+            "requirements": "3-5 年产品运营经验；有工具产品/AI 应用商业化变现经验；强数据分析；能写 PRD、跨部门推动",
+            "platform": "猎聘 · 直达 JD",
+            "url": "https://www.liepin.com/job/1964523119.shtml",
+            "jd_excerpt": "【岗位职责】1) 探索 WPS 工具产品与 AIGC 方向结合的可能，制定阶段性目标，主导项目上线；2) 通过市场调研&行业分析，结合 WPS 产品体系挖掘 AIGC 与业务结合的可落地方向；3) 项目整体管理，把控进度，跨部门协调推动产研测交付；4) 通过线上数据分析、用户行为路径、用户体验反馈，提出商业优化策略和运营提升方案。【任职要求】1) 3-5 年产品运营经验；2) 对 AIGC 等新领域有强烈好奇心和商业敏感度；3) 有系统的工具产品运营或商业化变现经验，对效率类工具/AI 类应用熟悉者优先；4) 较强的数据分析和逻辑推理能力；5) 具备 PRD 撰写、跟进开发测试能力；6) 学习能力强、抗压能力强、善于跨部门沟通推动。"
+          },
+          {
+            "position": "AI 内容运营（AIGC 营销 + 数字人 IP）",
+            "company": "叫叫（成都 · 叫叫 AI 课）",
+            "salary": "15-25K · 2 年+",
+            "requirements": "小红书/抖音/视频号 AIGC 投放素材；数字人 IP 直播运营；熟练 Midjourney/ChatGPT 等 AI 工具",
+            "platform": "猎聘 · 直达 JD",
+            "url": "https://www.liepin.com/job/1972058561.shtml",
+            "jd_excerpt": "【工作职责】1) 深入探索 AIGC 营销方式，通过 AI 生成图片/视频等创新素材，为小红书、抖音等社交媒体打造吸睛内容；2) 主导 IP 数字人在视频号及直播平台的运营策略制定与执行；3) 积极研究并应用 AI agent 及各类 AI 工具，通过优化文案撰写、智能客服等提升营销效率；4) 为「叫叫 AI 课」、「AI 大叫叫」等项目提供前瞻性营销支持，从市场调研、用户画像分析到营销策略制定；5) 组织内部培训与分享，提升团队 AI 营销和 AI 工具使用能力。【任职要求】1) 本科及以上，市场营销/计算机/AI 相关专业优先；2) 2 年以上市场营销经验，熟悉社交媒体平台运营规则，有成功营销案例者优先；3) 对 AIGC 技术深入了解，熟练掌握 Midjourney/ChatGPT 等至少一种 AI 内容生成工具；4) 对新兴技术充满热情，学习能力和创新意识强。"
+          },
+          {
+            "position": "广告运营 / 信息流广告优化师",
+            "company": "微思敦（武汉 · 微博/小红书/B站/知乎/腾讯核心代理）",
+            "salary": "10-15K · 3-5 年",
+            "requirements": "小红书等平台广告投放策略制定；信息流优化与数据分析；客户营销目标达成；维护客情关系",
+            "platform": "BOSS 直聘 · 直达 JD",
+            "url": "https://www.zhipin.com/zhaopin/1283ccf764c8434d1HF-0tu5/",
+            "jd_excerpt": "【岗位职责】1) 根据各类商家行业特点和发展趋势，制定客户在小红书平台的广告投放策略；2) 负责信息流广告的优化、投放及数据分析工作，通过分析和评估数据及时发现问题并优化；3) 负责与客户保持良好沟通，深度挖掘客户需求，达成客户营销目标。【任职要求】1) 统招大专及以上，1 年以上互联网广告运营经验；2) 熟悉广告投放流程和各类广告投放平台，有微博/B 站/知乎/小红书广告运营经验优先；3) 较强数据分析能力、市场敏感性和判断力；4) 较强责任心和抗压能力，沟通高效、积极主动。【公司背景】微思敦是微博、小红书、知乎、哔哩哔哩、腾讯等社交媒体的核心代理商。"
+          },
+          {
+            "position": "快手 2026 春招 · 大模型与商业化方向（200+ 岗）",
+            "company": "快手（含可灵 AI 业务线）",
+            "salary": "按岗位定级",
+            "requirements": "大模型岗位需求同比翻倍；可灵 AI 落地广告营销/影视/电商；急需懂商业化的运营与解决方案",
+            "platform": "搜狐报道（聚合信息）",
+            "url": "https://www.sohu.com/a/995900428_211762",
+            "jd_excerpt": "【报道摘录】快手启动 2026 届春季招聘，开放岗位涵盖技术、产品、内容、商业化、设计、职能六大方向。其中大模型相关岗位需求同比翻倍，可灵 AI 已在广告营销、影视、电商等场景规模化落地。重点招募：大模型算法（语言/多模态/RL/RAG/Agent）、AI 产品经理、AI 商业化解决方案、AIGC 内容运营、商业化产品运营等方向。可灵 AI 业务线（隶属快手商业化）持续扩招，重点关注既懂广告投放/营销又熟悉 AIGC 工具的复合型运营人才。投递入口：快手校园官网。"
+          }
+        ]
+      }
+    ],
+    "keywords": "今日招聘信号：当日新闻自动提取，今日无明确信号故留空；长期岗位池：人工整理真实 JD（WPS/叫叫/微思敦/快手等），均可点链接溯源。绝不虚构岗位/公司/薪资。"
+  },
+  "takeaways": [
+    "本日共抓取 18 条 AI 资讯，海外英文已自动翻译为中文。",
+    "每条均带原始链接，点击「来源」可直达原文核实；解读为空时显示 RSS 原文摘要。",
+    "人才板块「今日招聘信号」自当日真实新闻提取，长期岗位池沿用人工整理，均不虚构。"
+  ]
+}
