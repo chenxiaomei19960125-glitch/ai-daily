@@ -1,0 +1,366 @@
+{
+  "date": "2026-08-26",
+  "source_note": "本日报内容由脚本自动抓取自下方公开渠道 RSS，海外英文资讯已自动翻译为中文，每条均保留原始链接可溯源。「读懂这条」为解读，若无则显示 RSS 原文摘要。人才板块的「今日招聘信号」由当日真实新闻自动提取，绝无虚构。",
+  "overview": "自动汇总 2026-08-26 AI 圈公开 RSS 源最新资讯，共抓取 18 条。人才板块「今日招聘信号」来自当日新闻自动提取，长期岗位池沿用人工整理；股市板块沿用上一日方向。",
+  "sections": [
+    {
+      "title": "🌍 海外 AI 巨头与科技媒体",
+      "items": [
+        {
+          "title": "[待翻译] The full stack behind abundant intelligence",
+          "desc": "[英文原文] OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower",
+          "takeaway": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and ——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence"
+            }
+          ]
+        },
+        {
+          "title": "[待翻译] Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "desc": "[英文原文] Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern mod",
+          "takeaway": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/jalapeno-first-results"
+            }
+          ]
+        },
+        {
+          "title": "[待翻译] Disrupting a new covert influence campaign from Russia",
+          "desc": "[英文原文] OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+          "takeaway": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based thi——规则变了，做 AI 相关的都得跟着调整，别踩红线。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
+            }
+          ]
+        },
+        {
+          "title": "[待翻译] Introducing the Admin plugin for ChatGPT Work and Codex",
+          "desc": "[英文原文] Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+          "takeaway": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, mana——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/introducing-admin-plugin"
+            }
+          ]
+        },
+        {
+          "title": "[待翻译] Advancing price-performance for developers with GPT‑5.6 in Kiro",
+          "desc": "[英文原文] GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+          "takeaway": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and te——用 AI 的花费有变化，预算紧的个人和小团队要算一下账。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/gpt-5-6-in-kiro"
+            }
+          ]
+        },
+        {
+          "title": "[待翻译] Introducing AI Futures",
+          "desc": "[英文原文] Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+          "takeaway": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could ——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/introducing-ai-futures"
+            }
+          ]
+        },
+        {
+          "title": "[待翻译] Robotics startup Generalist reaches $3B valuation, sources say",
+          "desc": "[英文原文] The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
+          "takeaway": "The $200 million extension comes just months after the physical AI startup reach——有人砸钱进来了，这条赛道接下来会火、大概率也在招人。",
+          "sources": [
+            {
+              "name": "TechCrunch · AI",
+              "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/"
+            }
+          ]
+        },
+        {
+          "title": "[待翻译] OpenAI loses a top data center exec, as stream of high-profile departures continues",
+          "desc": "[英文原文] Before Malone left, OpenAI had already reshuffled its infrastructure org, shifting his reporting line away from President Greg Brockman and putting Vice Preside",
+          "takeaway": "Before Malone left, OpenAI had already reshuffled its infrastructure org, shifti——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "TechCrunch · AI",
+              "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 国内 AI 媒体精选",
+      "items": [
+        {
+          "title": "OpenAI「辣椒芯」干翻英伟达！老黄股价不跌反涨",
+          "desc": "不和老黄商量",
+          "takeaway": "不和老黄商量——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/479320.html"
+            }
+          ]
+        },
+        {
+          "title": "从开源走向共建：范式联合优必选等十余家具身巨头发布PhanthyMotus新计划",
+          "desc": "近日，范式正式举办 PhanthyMotus 生态社区共建计划发布会，宣布其首个通用具身Agent底座从“开源”迈入“多方共建”新阶段。",
+          "takeaway": "近日，范式正式举办 PhanthyMotus 生态社区共建计划发布会，宣布其首个通用具身Agent底座从“开源”迈入“多方共建”新阶段——好东西免费放出来了，自己想折腾 AI 的可以直接拿去用。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/479314.html"
+            }
+          ]
+        },
+        {
+          "title": "开源国产8B模型，比肩闭源Image 2了！",
+          "desc": "SenseNova U1.5 Lite",
+          "takeaway": "SenseNova U1.5 Lite——好东西免费放出来了，自己想折腾 AI 的可以直接拿去用。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/479192.html"
+            }
+          ]
+        },
+        {
+          "title": "半年3轮10亿，他们都投了这家已经把机器人卖到500个家庭的公司",
+          "desc": "字节、汇川等已入股未来不远机器人最新一轮融资",
+          "takeaway": "字节、汇川等已入股未来不远机器人最新一轮融资——有人砸钱进来了，这条赛道接下来会火、大概率也在招人。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/479132.html"
+            }
+          ]
+        },
+        {
+          "title": "AI4S开始进入「项目时代」：紫东太初把AI从做Task推向做Project",
+          "desc": "AI科研能力从工具级转向系统级",
+          "takeaway": "AI科研能力从工具级转向系统级——给开发者的新工具，做东西更省事，技术/产品同学可以瞄一眼。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/479096.html"
+            }
+          ]
+        },
+        {
+          "title": "赛博义父Tibo最新访谈：专门实体按钮搞重置，“我想重置就重置”",
+          "desc": "下一代Agent天然会走向云端和更大规模的计算资源",
+          "takeaway": "下一代Agent天然会走向云端和更大规模的计算资源——AI 不只会聊天、开始能自己干活了，做运营/产品的可以早点学着用。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/08/478996.html"
+            }
+          ]
+        },
+        {
+          "title": "技术革命：为 Agentic AI 时代做好准备 | 技术趋势",
+          "desc": "点击查看原文>",
+          "takeaway": "点击查看原文>——AI 不只会聊天、开始能自己干活了，做运营/产品的可以早点学着用。",
+          "sources": [
+            {
+              "name": "InfoQ 中国",
+              "url": "https://www.infoq.cn/article/8ouuK09WuWA7Up35W9vb?utm_source=rss&utm_medium=article"
+            }
+          ]
+        },
+        {
+          "title": "Grab 借助 AI 代理将机械性分析的工作量从 44% 降至 30%",
+          "desc": "点击查看原文>",
+          "takeaway": "点击查看原文>——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "InfoQ 中国",
+              "url": "https://www.infoq.cn/article/LqdtQ5sKYcEAzhCNNToE?utm_source=rss&utm_medium=article"
+            }
+          ]
+        },
+        {
+          "title": "“额度想重置就重置，不问财务”，Codex Tibo首曝幕后：产品没做好，就补偿用户",
+          "desc": "点击查看原文>",
+          "takeaway": "点击查看原文>——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "InfoQ 中国",
+              "url": "https://www.infoq.cn/article/Ztjb9xolQG8qFThbgxBD?utm_source=rss&utm_medium=article"
+            }
+          ]
+        },
+        {
+          "title": "主要前沿模型提供商采用水印技术以满足欧盟法规要求",
+          "desc": "点击查看原文>",
+          "takeaway": "点击查看原文>——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "InfoQ 中国",
+              "url": "https://www.infoq.cn/article/4mIQfr4w5gPLXSIW7YST?utm_source=rss&utm_medium=article"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stock": {
+    "rows": [
+      {
+        "name": "算力硬件（中芯国际 0981.HK / 华虹 1347.HK / 联想 0992.HK）",
+        "direction": "⬆ 偏强",
+        "logic": "国内大模型与 AI 应用持续放量，国产算力供给紧张，订单与产能利用率持续抬升",
+        "sources": [
+          {
+            "name": "港股大模型概念股日报 · 界面新闻",
+            "url": "https://www.jiemian.com/"
+          }
+        ]
+      },
+      {
+        "name": "AI 应用层（快手 1024.HK / 腾讯 0700.HK）",
+        "direction": "⬆ 偏强",
+        "logic": "可灵 ARR 兑现、混元/元宝放量；财报已能给出可验证的 AI 收入与用户数",
+        "sources": [
+          {
+            "name": "快手 Q1 财报 · 腾讯网",
+            "url": "https://new.qq.com/"
+          }
+        ]
+      },
+      {
+        "name": "美股 AI 龙头（NVDA / MSFT / GOOGL）",
+        "direction": "⬆ 偏强",
+        "logic": "OpenAI/Anthropic IPO 临近，整体 AI 资产估值预期被抬升；微软作为 OpenAI 最大股东受益最直接",
+        "sources": [
+          {
+            "name": "DoNews · OpenAI IPO",
+            "url": "https://www.donews.com/"
+          }
+        ]
+      },
+      {
+        "name": "纯模型层（部分港股 AI 个股）",
+        "direction": "⇄ 震荡偏弱",
+        "logic": "营收兑现压力大、估值消化中，资金切换至有商业化的应用层",
+        "sources": [
+          {
+            "name": "港股大模型概念股日报",
+            "url": "https://www.jiemian.com/"
+          }
+        ]
+      },
+      {
+        "name": "机器人板块（A 股人形机器人概念）",
+        "direction": "⇄ 震荡",
+        "logic": "主题热度高但商业化路径较长，对消息面敏感、波动放大",
+        "sources": [
+          {
+            "name": "腾讯自选股 6/9 圆桌报告",
+            "url": "https://github.com/chenxiaomei19960125-glitch/roundtable-2026-06-09"
+          }
+        ]
+      },
+      {
+        "name": "AI + 营销/广告（蓝色光标 300058 等）",
+        "direction": "⬆ 偏强（弹性大）",
+        "logic": "AI 营销市场规模破 3200 亿、增速 41.7%；广告公司 AIGC 改造预期升温",
+        "sources": [
+          {
+            "name": "AI 营销报告 · 企鹅号",
+            "url": "https://page.om.qq.com/"
+          }
+        ]
+      }
+    ],
+    "note": "以上为基于公开信息的方向性整理，仅供参考，不构成投资建议。\n（注：本板块沿用 2026-08-25 人工整理内容，行情变化不大；如需更新请人工编辑。）"
+  },
+  "talent": {
+    "groups": [
+      {
+        "title": "🅰️ 今日新闻中的真实招聘信号（来自当日 AI 资讯，均可点链接溯源）",
+        "rows": [
+          {
+            "position": "[待翻译] Advancing price-performance for de…",
+            "company": "OpenAI 官方博客",
+            "salary": "按岗位面议",
+            "requirements": "信号来源（真实新闻摘要）：[英文原文] GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-per",
+            "platform": "OpenAI 官方博客 · 链接",
+            "url": "https://openai.com/index/gpt-5-6-in-kiro"
+          },
+          {
+            "position": "[待翻译] Robotics startup Generalist reache…",
+            "company": "TechCrunch · AI",
+            "salary": "按岗位面议",
+            "requirements": "信号来源（真实新闻摘要）：[英文原文] The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
+            "platform": "TechCrunch · AI · 链接",
+            "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/"
+          },
+          {
+            "position": "半年3轮10亿，他们都投了这家已经把机器人卖到500个家庭的公司",
+            "company": "量子位",
+            "salary": "按岗位面议",
+            "requirements": "信号来源（真实新闻摘要）：字节、汇川等已入股未来不远机器人最新一轮融资",
+            "platform": "量子位 · 链接",
+            "url": "https://www.qbitai.com/2026/08/479132.html"
+          }
+        ]
+      },
+      {
+        "title": "🅱️ 长期岗位池（人工整理真实 JD，更新于 2026-06-09，行情变化不大时沿用）",
+        "rows": [
+          {
+            "position": "AIGC 商业化运营",
+            "company": "金山办公（WPS · 广州）",
+            "salary": "30-50K · 3-5 年",
+            "requirements": "3-5 年产品运营经验；有工具产品/AI 应用商业化变现经验；强数据分析；能写 PRD、跨部门推动",
+            "platform": "猎聘 · 直达 JD",
+            "url": "https://www.liepin.com/job/1964523119.shtml",
+            "jd_excerpt": "【岗位职责】1) 探索 WPS 工具产品与 AIGC 方向结合的可能，制定阶段性目标，主导项目上线；2) 通过市场调研&行业分析，结合 WPS 产品体系挖掘 AIGC 与业务结合的可落地方向；3) 项目整体管理，把控进度，跨部门协调推动产研测交付；4) 通过线上数据分析、用户行为路径、用户体验反馈，提出商业优化策略和运营提升方案。【任职要求】1) 3-5 年产品运营经验；2) 对 AIGC 等新领域有强烈好奇心和商业敏感度；3) 有系统的工具产品运营或商业化变现经验，对效率类工具/AI 类应用熟悉者优先；4) 较强的数据分析和逻辑推理能力；5) 具备 PRD 撰写、跟进开发测试能力；6) 学习能力强、抗压能力强、善于跨部门沟通推动。"
+          },
+          {
+            "position": "AI 内容运营（AIGC 营销 + 数字人 IP）",
+            "company": "叫叫（成都 · 叫叫 AI 课）",
+            "salary": "15-25K · 2 年+",
+            "requirements": "小红书/抖音/视频号 AIGC 投放素材；数字人 IP 直播运营；熟练 Midjourney/ChatGPT 等 AI 工具",
+            "platform": "猎聘 · 直达 JD",
+            "url": "https://www.liepin.com/job/1972058561.shtml",
+            "jd_excerpt": "【工作职责】1) 深入探索 AIGC 营销方式，通过 AI 生成图片/视频等创新素材，为小红书、抖音等社交媒体打造吸睛内容；2) 主导 IP 数字人在视频号及直播平台的运营策略制定与执行；3) 积极研究并应用 AI agent 及各类 AI 工具，通过优化文案撰写、智能客服等提升营销效率；4) 为「叫叫 AI 课」、「AI 大叫叫」等项目提供前瞻性营销支持，从市场调研、用户画像分析到营销策略制定；5) 组织内部培训与分享，提升团队 AI 营销和 AI 工具使用能力。【任职要求】1) 本科及以上，市场营销/计算机/AI 相关专业优先；2) 2 年以上市场营销经验，熟悉社交媒体平台运营规则，有成功营销案例者优先；3) 对 AIGC 技术深入了解，熟练掌握 Midjourney/ChatGPT 等至少一种 AI 内容生成工具；4) 对新兴技术充满热情，学习能力和创新意识强。"
+          },
+          {
+            "position": "广告运营 / 信息流广告优化师",
+            "company": "微思敦（武汉 · 微博/小红书/B站/知乎/腾讯核心代理）",
+            "salary": "10-15K · 3-5 年",
+            "requirements": "小红书等平台广告投放策略制定；信息流优化与数据分析；客户营销目标达成；维护客情关系",
+            "platform": "BOSS 直聘 · 直达 JD",
+            "url": "https://www.zhipin.com/zhaopin/1283ccf764c8434d1HF-0tu5/",
+            "jd_excerpt": "【岗位职责】1) 根据各类商家行业特点和发展趋势，制定客户在小红书平台的广告投放策略；2) 负责信息流广告的优化、投放及数据分析工作，通过分析和评估数据及时发现问题并优化；3) 负责与客户保持良好沟通，深度挖掘客户需求，达成客户营销目标。【任职要求】1) 统招大专及以上，1 年以上互联网广告运营经验；2) 熟悉广告投放流程和各类广告投放平台，有微博/B 站/知乎/小红书广告运营经验优先；3) 较强数据分析能力、市场敏感性和判断力；4) 较强责任心和抗压能力，沟通高效、积极主动。【公司背景】微思敦是微博、小红书、知乎、哔哩哔哩、腾讯等社交媒体的核心代理商。"
+          },
+          {
+            "position": "快手 2026 春招 · 大模型与商业化方向（200+ 岗）",
+            "company": "快手（含可灵 AI 业务线）",
+            "salary": "按岗位定级",
+            "requirements": "大模型岗位需求同比翻倍；可灵 AI 落地广告营销/影视/电商；急需懂商业化的运营与解决方案",
+            "platform": "搜狐报道（聚合信息）",
+            "url": "https://www.sohu.com/a/995900428_211762",
+            "jd_excerpt": "【报道摘录】快手启动 2026 届春季招聘，开放岗位涵盖技术、产品、内容、商业化、设计、职能六大方向。其中大模型相关岗位需求同比翻倍，可灵 AI 已在广告营销、影视、电商等场景规模化落地。重点招募：大模型算法（语言/多模态/RL/RAG/Agent）、AI 产品经理、AI 商业化解决方案、AIGC 内容运营、商业化产品运营等方向。可灵 AI 业务线（隶属快手商业化）持续扩招，重点关注既懂广告投放/营销又熟悉 AIGC 工具的复合型运营人才。投递入口：快手校园官网。"
+          }
+        ]
+      }
+    ],
+    "keywords": "今日招聘信号：当日新闻自动提取，今日无明确信号故留空；长期岗位池：人工整理真实 JD（WPS/叫叫/微思敦/快手等），均可点链接溯源。绝不虚构岗位/公司/薪资。"
+  },
+  "takeaways": [
+    "本日共抓取 18 条 AI 资讯，海外英文已自动翻译为中文。",
+    "每条均带原始链接，点击「来源」可直达原文核实；解读为空时显示 RSS 原文摘要。",
+    "人才板块「今日招聘信号」自当日真实新闻提取，长期岗位池沿用人工整理，均不虚构。"
+  ]
+}
