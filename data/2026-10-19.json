@@ -1,0 +1,350 @@
+{
+  "date": "2026-10-19",
+  "source_note": "本日报内容由脚本自动抓取自下方公开渠道 RSS，海外英文资讯已自动翻译为中文，每条均保留原始链接可溯源。「读懂这条」为解读，若无则显示 RSS 原文摘要。人才板块的「今日招聘信号」由当日真实新闻自动提取，绝无虚构。",
+  "overview": "自动汇总 2026-10-19 AI 圈公开 RSS 源最新资讯，共抓取 18 条。人才板块「今日招聘信号」来自当日新闻自动提取，长期岗位池沿用人工整理；股市板块沿用上一日方向。",
+  "sections": [
+    {
+      "title": "🌍 海外 AI 巨头与科技媒体",
+      "items": [
+        {
+          "title": "Itaú 如何为其整个客户群构建生成式人工智能",
+          "desc": "借助对话界面 ia.i 和 IARA 治理平台，Itaú 正在将其人工智能优先战略应用于客户和员工——在巴西的一个",
+          "takeaway": "借助对话界面 ia.i 和 IARA 治理平台，Itaú 正在将其人工智能优先战略应用于客户和员工——在巴西的一个——做图做视频又有新工具，搞内容、营销的能省不少事。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/itau-generative-ai"
+            }
+          ]
+        },
+        {
+          "title": "Benefit Street Partners 通过 Codex 更快地回答问题",
+          "desc": "Anant Kumar 构建了比较贷款估值和分析信贷协议的工具，使用 Codex 进行代码审查和更快的跟进。",
+          "takeaway": "Anant Kumar 构建了比较贷款估值和分析信贷协议的工具，使用 Codex 进行代码审查和更快的跟进——有人砸钱进来了，这条赛道接下来会火、大概率也在招人。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/benefit-street-partners"
+            }
+          ]
+        },
+        {
+          "title": "Stack Overflow for Agents 使用 ChatGPT 插件使注册人数增加了三倍",
+          "desc": "两名工程师在几周内与 Codex 一起发布了 Stack Overflow for Agents，其 ChatGPT 插件帮助推动代理创建量增长了 10 倍。",
+          "takeaway": "两名工程师在几周内与 Codex 一起发布了 Stack Overflow for Agents，其 ChatGPT 插件帮助推动代理创建量增长了 10 倍——AI 不只会聊天、开始能自己干活了，做运营/产品的可以早点学着用。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/stack-overflow-chatgpt-plugin"
+            }
+          ]
+        },
+        {
+          "title": "将 GPT-Rosalind 引入学术研究实验室",
+          "desc": "推出 Rosalind 学术计划，为符合条件的学术实验室提供 GPT-Rosalind 赞助访问权限和推进生命科学研究的工具。",
+          "takeaway": "推出 Rosalind 学术计划，为符合条件的学术实验室提供 GPT-Rosalind 赞助访问权限和推进生命科学研究的工具——又出新工具/新模型了，看看能不能用进自己的活儿里。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/introducing-the-rosalind-academic-plan"
+            }
+          ]
+        },
+        {
+          "title": "教学生通过问题思考和学习",
+          "desc": "通过 AI 为教育工作者提供巴西葡萄牙语庆祝教师节，了解学习模式如何帮助教师支持主动、循序渐进的学习。",
+          "takeaway": "通过 AI 为教育工作者提供巴西葡萄牙语庆祝教师节，了解学习模式如何帮助教师支持主动、循序渐进的学习——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions"
+            }
+          ]
+        },
+        {
+          "title": "沙利文克伦威尔将法律专业知识纳入协议审查",
+          "desc": "Sullivan & Cromwell 与 OpenAI 合作开发了协议分析器，这是一种用于识别协议草案中问题的人工智能工具。",
+          "takeaway": "Sullivan & Cromwell 与 OpenAI 合作开发了协议分析器，这是一种用于识别协议草案中问题的人工智能工具——两家联手干事，可能很快有新产品出来，留意能不能用上。",
+          "sources": [
+            {
+              "name": "OpenAI 官方博客",
+              "url": "https://openai.com/index/sullivan-cromwell"
+            }
+          ]
+        },
+        {
+          "title": "Anthropic 表示将把 5% 的股份捐给“公益基金”",
+          "desc": "Anthropic表示将向该基金投入其5%的股份。",
+          "takeaway": "Anthropic表示将向该基金投入其5%的股份——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "TechCrunch · AI",
+              "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+            }
+          ]
+        },
+        {
+          "title": "迪士尼同意雇用 Character.AI 的大部分员工",
+          "desc": "文件还称，迪士尼提供的“绝大多数”Character.AI 员工都接受了他们。然而，这是一个跟踪马出价，所以",
+          "takeaway": "文件还称，迪士尼提供的“绝大多数”Character.AI 员工都接受了他们——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "TechCrunch · AI",
+              "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "🇨🇳 国内 AI 媒体精选",
+      "items": [
+        {
+          "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+          "desc": "新版本V4.1-Flash-1017，还开放了自研搜索API",
+          "takeaway": "新版本V4.1-Flash-1017，还开放了自研搜索API——又出新工具/新模型了，看看能不能用进自己的活儿里。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/10/504067.html"
+            }
+          ]
+        },
+        {
+          "title": "智谱新模型，懂法方面全球第一了",
+          "desc": "AI的风还是刮到了法律圈",
+          "takeaway": "AI的风还是刮到了法律圈——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/10/503965.html"
+            }
+          ]
+        },
+        {
+          "title": "清华开源！智能体操作系统任务成本降83%，AI记忆可查可改",
+          "desc": "整套系统原生支持MCP",
+          "takeaway": "整套系统原生支持MCP——好东西免费放出来了，自己想折腾 AI 的可以直接拿去用。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/10/503935.html"
+            }
+          ]
+        },
+        {
+          "title": "Claude半小时解开密码学悬案，学界集体走偏20年",
+          "desc": "谜底指向时间",
+          "takeaway": "谜底指向时间——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/10/503910.html"
+            }
+          ]
+        },
+        {
+          "title": "科技企业出海，为啥我推荐你去迪拜？",
+          "desc": "通往全球市场的超级跳板",
+          "takeaway": "通往全球市场的超级跳板——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "量子位",
+              "url": "https://www.qbitai.com/2026/10/503893.html"
+            }
+          ]
+        },
+        {
+          "title": "打造生产级的 Agent｜QCon上海",
+          "desc": "点击查看原文>",
+          "takeaway": "点击查看原文>——AI 不只会聊天、开始能自己干活了，做运营/产品的可以早点学着用。",
+          "sources": [
+            {
+              "name": "InfoQ 中国",
+              "url": "https://www.infoq.cn/article/oZHrjYAsXvjOZXRwLt6T?utm_source=rss&utm_medium=article"
+            }
+          ]
+        },
+        {
+          "title": "OpenCode 2.0 正式发布：一次“重大改造”，旧插件全部报废",
+          "desc": "点击查看原文>",
+          "takeaway": "点击查看原文>——又出新工具/新模型了，看看能不能用进自己的活儿里。",
+          "sources": [
+            {
+              "name": "InfoQ 中国",
+              "url": "https://www.infoq.cn/article/IK5AWDwovCu5lx3e3mhc?utm_source=rss&utm_medium=article"
+            }
+          ]
+        },
+        {
+          "title": "谷歌广告如何将一个开源的 macOS 术语误判为恶意内容并予以暂停",
+          "desc": "点击查看原文>",
+          "takeaway": "点击查看原文>——好东西免费放出来了，自己想折腾 AI 的可以直接拿去用。",
+          "sources": [
+            {
+              "name": "InfoQ 中国",
+              "url": "https://www.infoq.cn/article/UYJ6OSsb7GlDtXoORLxx?utm_source=rss&utm_medium=article"
+            }
+          ]
+        },
+        {
+          "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
+          "desc": "点击查看原文>",
+          "takeaway": "点击查看原文>——好东西免费放出来了，自己想折腾 AI 的可以直接拿去用。",
+          "sources": [
+            {
+              "name": "InfoQ 中国",
+              "url": "https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk?utm_source=rss&utm_medium=article"
+            }
+          ]
+        },
+        {
+          "title": "17岁 Kimi 架构核心参与者离职，确认将赴湾区，下一站引发猜想",
+          "desc": "点击查看原文>",
+          "takeaway": "点击查看原文>——AI 圈又有新动静，想跟上节奏的可以瞄一眼。",
+          "sources": [
+            {
+              "name": "InfoQ 中国",
+              "url": "https://www.infoq.cn/article/UdT804ujpGxrv0pQfxv2?utm_source=rss&utm_medium=article"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "stock": {
+    "rows": [
+      {
+        "name": "算力硬件（中芯国际 0981.HK / 华虹 1347.HK / 联想 0992.HK）",
+        "direction": "⬆ 偏强",
+        "logic": "国内大模型与 AI 应用持续放量，国产算力供给紧张，订单与产能利用率持续抬升",
+        "sources": [
+          {
+            "name": "港股大模型概念股日报 · 界面新闻",
+            "url": "https://www.jiemian.com/"
+          }
+        ]
+      },
+      {
+        "name": "AI 应用层（快手 1024.HK / 腾讯 0700.HK）",
+        "direction": "⬆ 偏强",
+        "logic": "可灵 ARR 兑现、混元/元宝放量；财报已能给出可验证的 AI 收入与用户数",
+        "sources": [
+          {
+            "name": "快手 Q1 财报 · 腾讯网",
+            "url": "https://new.qq.com/"
+          }
+        ]
+      },
+      {
+        "name": "美股 AI 龙头（NVDA / MSFT / GOOGL）",
+        "direction": "⬆ 偏强",
+        "logic": "OpenAI/Anthropic IPO 临近，整体 AI 资产估值预期被抬升；微软作为 OpenAI 最大股东受益最直接",
+        "sources": [
+          {
+            "name": "DoNews · OpenAI IPO",
+            "url": "https://www.donews.com/"
+          }
+        ]
+      },
+      {
+        "name": "纯模型层（部分港股 AI 个股）",
+        "direction": "⇄ 震荡偏弱",
+        "logic": "营收兑现压力大、估值消化中，资金切换至有商业化的应用层",
+        "sources": [
+          {
+            "name": "港股大模型概念股日报",
+            "url": "https://www.jiemian.com/"
+          }
+        ]
+      },
+      {
+        "name": "机器人板块（A 股人形机器人概念）",
+        "direction": "⇄ 震荡",
+        "logic": "主题热度高但商业化路径较长，对消息面敏感、波动放大",
+        "sources": [
+          {
+            "name": "腾讯自选股 6/9 圆桌报告",
+            "url": "https://github.com/chenxiaomei19960125-glitch/roundtable-2026-06-09"
+          }
+        ]
+      },
+      {
+        "name": "AI + 营销/广告（蓝色光标 300058 等）",
+        "direction": "⬆ 偏强（弹性大）",
+        "logic": "AI 营销市场规模破 3200 亿、增速 41.7%；广告公司 AIGC 改造预期升温",
+        "sources": [
+          {
+            "name": "AI 营销报告 · 企鹅号",
+            "url": "https://page.om.qq.com/"
+          }
+        ]
+      }
+    ],
+    "note": "以上为基于公开信息的方向性整理，仅供参考，不构成投资建议。\n（注：本板块沿用 2026-10-18 人工整理内容，行情变化不大；如需更新请人工编辑。）"
+  },
+  "talent": {
+    "groups": [
+      {
+        "title": "🅰️ 今日新闻中的真实招聘信号（来自当日 AI 资讯，均可点链接溯源）",
+        "rows": [
+          {
+            "position": "Benefit Street Partners 通过 Codex 更快地回答问题",
+            "company": "OpenAI 官方博客",
+            "salary": "按岗位面议",
+            "requirements": "信号来源（真实新闻摘要）：Anant Kumar 构建了比较贷款估值和分析信贷协议的工具，使用 Codex 进行代码审查和更快的跟进。",
+            "platform": "OpenAI 官方博客 · 链接",
+            "url": "https://openai.com/index/benefit-street-partners"
+          }
+        ]
+      },
+      {
+        "title": "🅱️ 长期岗位池（人工整理真实 JD，更新于 2026-06-09，行情变化不大时沿用）",
+        "rows": [
+          {
+            "position": "AIGC 商业化运营",
+            "company": "金山办公（WPS · 广州）",
+            "salary": "30-50K · 3-5 年",
+            "requirements": "3-5 年产品运营经验；有工具产品/AI 应用商业化变现经验；强数据分析；能写 PRD、跨部门推动",
+            "platform": "猎聘 · 直达 JD",
+            "url": "https://www.liepin.com/job/1964523119.shtml",
+            "jd_excerpt": "【岗位职责】1) 探索 WPS 工具产品与 AIGC 方向结合的可能，制定阶段性目标，主导项目上线；2) 通过市场调研&行业分析，结合 WPS 产品体系挖掘 AIGC 与业务结合的可落地方向；3) 项目整体管理，把控进度，跨部门协调推动产研测交付；4) 通过线上数据分析、用户行为路径、用户体验反馈，提出商业优化策略和运营提升方案。【任职要求】1) 3-5 年产品运营经验；2) 对 AIGC 等新领域有强烈好奇心和商业敏感度；3) 有系统的工具产品运营或商业化变现经验，对效率类工具/AI 类应用熟悉者优先；4) 较强的数据分析和逻辑推理能力；5) 具备 PRD 撰写、跟进开发测试能力；6) 学习能力强、抗压能力强、善于跨部门沟通推动。"
+          },
+          {
+            "position": "AI 内容运营（AIGC 营销 + 数字人 IP）",
+            "company": "叫叫（成都 · 叫叫 AI 课）",
+            "salary": "15-25K · 2 年+",
+            "requirements": "小红书/抖音/视频号 AIGC 投放素材；数字人 IP 直播运营；熟练 Midjourney/ChatGPT 等 AI 工具",
+            "platform": "猎聘 · 直达 JD",
+            "url": "https://www.liepin.com/job/1972058561.shtml",
+            "jd_excerpt": "【工作职责】1) 深入探索 AIGC 营销方式，通过 AI 生成图片/视频等创新素材，为小红书、抖音等社交媒体打造吸睛内容；2) 主导 IP 数字人在视频号及直播平台的运营策略制定与执行；3) 积极研究并应用 AI agent 及各类 AI 工具，通过优化文案撰写、智能客服等提升营销效率；4) 为「叫叫 AI 课」、「AI 大叫叫」等项目提供前瞻性营销支持，从市场调研、用户画像分析到营销策略制定；5) 组织内部培训与分享，提升团队 AI 营销和 AI 工具使用能力。【任职要求】1) 本科及以上，市场营销/计算机/AI 相关专业优先；2) 2 年以上市场营销经验，熟悉社交媒体平台运营规则，有成功营销案例者优先；3) 对 AIGC 技术深入了解，熟练掌握 Midjourney/ChatGPT 等至少一种 AI 内容生成工具；4) 对新兴技术充满热情，学习能力和创新意识强。"
+          },
+          {
+            "position": "广告运营 / 信息流广告优化师",
+            "company": "微思敦（武汉 · 微博/小红书/B站/知乎/腾讯核心代理）",
+            "salary": "10-15K · 3-5 年",
+            "requirements": "小红书等平台广告投放策略制定；信息流优化与数据分析；客户营销目标达成；维护客情关系",
+            "platform": "BOSS 直聘 · 直达 JD",
+            "url": "https://www.zhipin.com/zhaopin/1283ccf764c8434d1HF-0tu5/",
+            "jd_excerpt": "【岗位职责】1) 根据各类商家行业特点和发展趋势，制定客户在小红书平台的广告投放策略；2) 负责信息流广告的优化、投放及数据分析工作，通过分析和评估数据及时发现问题并优化；3) 负责与客户保持良好沟通，深度挖掘客户需求，达成客户营销目标。【任职要求】1) 统招大专及以上，1 年以上互联网广告运营经验；2) 熟悉广告投放流程和各类广告投放平台，有微博/B 站/知乎/小红书广告运营经验优先；3) 较强数据分析能力、市场敏感性和判断力；4) 较强责任心和抗压能力，沟通高效、积极主动。【公司背景】微思敦是微博、小红书、知乎、哔哩哔哩、腾讯等社交媒体的核心代理商。"
+          },
+          {
+            "position": "快手 2026 春招 · 大模型与商业化方向（200+ 岗）",
+            "company": "快手（含可灵 AI 业务线）",
+            "salary": "按岗位定级",
+            "requirements": "大模型岗位需求同比翻倍；可灵 AI 落地广告营销/影视/电商；急需懂商业化的运营与解决方案",
+            "platform": "搜狐报道（聚合信息）",
+            "url": "https://www.sohu.com/a/995900428_211762",
+            "jd_excerpt": "【报道摘录】快手启动 2026 届春季招聘，开放岗位涵盖技术、产品、内容、商业化、设计、职能六大方向。其中大模型相关岗位需求同比翻倍，可灵 AI 已在广告营销、影视、电商等场景规模化落地。重点招募：大模型算法（语言/多模态/RL/RAG/Agent）、AI 产品经理、AI 商业化解决方案、AIGC 内容运营、商业化产品运营等方向。可灵 AI 业务线（隶属快手商业化）持续扩招，重点关注既懂广告投放/营销又熟悉 AIGC 工具的复合型运营人才。投递入口：快手校园官网。"
+          }
+        ]
+      }
+    ],
+    "keywords": "今日招聘信号：当日新闻自动提取，今日无明确信号故留空；长期岗位池：人工整理真实 JD（WPS/叫叫/微思敦/快手等），均可点链接溯源。绝不虚构岗位/公司/薪资。"
+  },
+  "takeaways": [
+    "本日共抓取 18 条 AI 资讯，海外英文已自动翻译为中文。",
+    "每条均带原始链接，点击「来源」可直达原文核实；解读为空时显示 RSS 原文摘要。",
+    "人才板块「今日招聘信号」自当日真实新闻提取，长期岗位池沿用人工整理，均不虚构。"
+  ]
+}
